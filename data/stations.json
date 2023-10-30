@@ -1,0 +1,587 @@
+{
+  "stations": [
+    {
+      "name": "Phoenix Park",
+      "lines": [ 2 ],
+      "latitude": 52.9888701,
+      "longitude": -1.2294598,
+      "spellings": [
+        "phoenix park",
+        "phoenix pk"
+      ]
+    },
+    {
+      "name": "Cinderhill",
+      "lines": [ 2 ],
+      "latitude": 52.989002,
+      "longitude": -1.2032973,
+      "spellings": [
+        "cinderhill",
+        "cinder hill"
+      ]
+    },
+    {
+      "name": "Highbury Vale",
+      "lines": [ 2 ],
+      "latitude": 52.9897871,
+      "longitude": -1.1945399,
+      "spellings": [
+        "highbury vale"
+      ]
+    },
+    {
+      "name": "Queen's Walk",
+      "lines": [ 2 ],
+      "latitude": 52.9427018,
+      "longitude": -1.1529373,
+      "spellings": [
+        "queen's walk",
+        "queen's wlk",
+        "queens walk",
+        "queens wlk"
+      ]
+    },
+    {
+      "name": "Meadows Embankment",
+      "lines": [ 2 ],
+      "latitude": 52.9390042,
+      "longitude": -1.1562377,
+      "spellings": [
+        "meadows embankment",
+        "meadow's embankment",
+        "the embankment",
+        "embankment"
+      ]
+    },
+    {
+      "name": "Wilford Village",
+      "lines": [ 2 ],
+      "latitude": 52.9352505,
+      "longitude": -1.1565327,
+      "spellings": [
+        "wilford village"
+      ]
+    },
+    {
+      "name": "Wilford Lane",
+      "lines": [ 2 ],
+      "latitude": 52.9259375,
+      "longitude": -1.1575157,
+      "spellings": [
+        "wilford lane",
+        "wilford ln"
+      ]
+    },
+    {
+      "name": "Compton Acres",
+      "lines": [ 2 ],
+      "latitude": 52.91909,
+      "longitude": -1.1600833,
+      "spellings": [
+        "compton acres"
+      ]
+    },
+    {
+      "name": "Ruddington Lane",
+      "lines": [ 2 ],
+      "latitude": 52.9144632,
+      "longitude": -1.1609714,
+      "spellings": [
+        "ruddington lane",
+        "ruddington ln"
+      ]
+    },
+    {
+      "name": "Southchurch Drive",
+      "lines": [ 2 ],
+      "latitude": 52.9108988,
+      "longitude": -1.172502,
+      "spellings": [
+        "southchurch drive",
+        "southchurch dr",
+        "south church drive",
+        "south church dr"
+      ]
+    },
+    {
+      "name": "Rivergreen",
+      "lines": [ 2 ],
+      "latitude": 52.906933,
+      "longitude": -1.1773169,
+      "spellings": [
+        "rivergreen",
+        "river green"
+      ]
+    },
+    {
+      "name": "Clifton Centre",
+      "lines": [ 2 ],
+      "latitude": 52.9036867,
+      "longitude": -1.179558,
+      "spellings": [
+        "clifton centre",
+        "clifton ctr",
+        "clifton center"
+      ]
+    },
+    {
+      "name": "Holy Trinity",
+      "lines": [ 2 ],
+      "latitude": 52.897312,
+      "longitude": -1.1835562,
+      "spellings": [
+        "holy trinity"
+      ]
+    },
+    {
+      "name": "Summerwood Lane",
+      "lines": [ 2 ],
+      "latitude": 52.8969818,
+      "longitude": -1.1928266,
+      "spellings": [
+        "summerwood lane",
+        "summer wood lane",
+        "summerwood ln",
+        "summer wood ln"
+      ]
+    },
+    {
+      "name": "Clifton South",
+      "lines": [ 2 ],
+      "latitude": 52.896671,
+      "longitude": -1.1952733,
+      "spellings": [
+        "clifton south",
+        "clifton sth",
+        "clifton s"
+      ]
+    },
+    {
+      "name": "Hucknall",
+      "lines": [ 1 ],
+      "latitude": 53.0387698,
+      "longitude": -1.2005843,
+      "spellings": [
+        "hucknall"
+      ]
+    },
+    {
+      "name": "Butler's Hill",
+      "lines": [ 1 ],
+      "latitude": 53.0288049,
+      "longitude": -1.1933195,
+      "spellings": [
+        "butler's hill",
+        "butlers hill"
+      ]
+    },
+    {
+      "name": "Moor Bridge",
+      "lines": [ 1 ],
+      "latitude": 53.014484,
+      "longitude": -1.1895743,
+      "spellings": [
+        "moor bridge",
+        "moor brg",
+        "moor br"
+      ]
+    },
+    {
+      "name": "Bulwell Forest",
+      "lines": [ 1 ],
+      "latitude": 53.0060014,
+      "longitude": -1.1927724,
+      "spellings": [
+        "bulwell forest",
+        "bullwell forest"
+      ]
+    },
+    {
+      "name": "Bulwell",
+      "lines": [ 1 ],
+      "latitude": 52.9992301,
+      "longitude": -1.1981893,
+      "spellings": [
+        "bulwell",
+        "bullwell"
+      ]
+    },
+    {
+      "name": "Highbury Vale",
+      "lines": [ 1 ],
+      "latitude": 52.9897872,
+      "longitude": -1.1922439,
+      "spellings": [
+        "highbury vale"
+      ]
+    },
+    {
+      "name": "Meadows Way West",
+      "lines": [ 1 ],
+      "latitude": 52.9433398,
+      "longitude": -1.1593675,
+      "spellings": [
+        "meadows way west",
+        "meadow's way west",
+        "meadows way w",
+        "meadow's way w",
+        "meadows way",
+        "meadow's way"
+      ]
+    },
+    {
+      "name": "NG2",
+      "lines": [ 1 ],
+      "latitude": 52.9418269,
+      "longitude": -1.1679038,
+      "spellings": [
+        "ng2",
+        "ng 2"
+      ]
+    },
+    {
+      "name": "Gregory Street",
+      "lines": [ 1 ],
+      "latitude": 52.9438643,
+      "longitude": -1.1796904,
+      "spellings": [
+        "gregory street",
+        "gregory st",
+        "gregory str"
+      ]
+    },
+    {
+      "name": "Queen's Medical Centre",
+      "lines": [ 1 ],
+      "latitude": 52.9425645,
+      "longitude": -1.1861838,
+      "spellings": [
+        "queen's medical centre",
+        "queen's medical center",
+        "queens medical centre",
+        "queens medical center",
+        "queen's medical ctr",
+        "queens medical ctr",
+        "queens medical",
+        "queens",
+        "queen's"
+      ]
+    },
+    {
+      "name": "University of Nottingham",
+      "lines": [ 1 ],
+      "latitude": 52.9367003,
+      "longitude": -1.1893979,
+      "spellings": [
+        "university of nottingham",
+        "nottingham university",
+        "nottm university",
+        "university of nottm"
+      ]
+    },
+    {
+      "name": "University Boulevard",
+      "lines": [ 1 ],
+      "latitude": 52.932217,
+      "longitude": -1.2047433,
+      "spellings": [
+        "university boulevard",
+        "university blvd"
+      ]
+    },
+    {
+      "name": "Middle Street",
+      "lines": [ 1 ],
+      "latitude": 52.927868,
+      "longitude": -1.2116373,
+      "spellings": [
+        "middle street",
+        "middle str",
+        "middle st"
+      ]
+    },
+    {
+      "name": "Beeston Centre",
+      "lines": [ 1 ],
+      "latitude": 52.925362,
+      "longitude": -1.2173653,
+      "spellings": [
+        "beeston centre",
+        "beeston center"
+      ]
+    },
+    {
+      "name": "Chilwell Road",
+      "lines": [ 1 ],
+      "latitude": 52.922718,
+      "longitude": -1.2227823,
+      "spellings": [
+        "chilwell road",
+        "chilwell rd",
+        "chillwell road",
+        "chillwell rd",
+        "chil well road",
+        "chil well rd",
+        "chill well road",
+        "chill well rd"
+      ]
+    },
+    {
+      "name": "High Road - Central College",
+      "lines": [ 1 ],
+      "latitude": 52.9212989,
+      "longitude": -1.2281265,
+      "spellings": [
+        "high road - central college",
+        "high rd - central college",
+        "high road",
+        "high rd",
+        "central college",
+        "beeston high road",
+        "beeston high rd",
+        "beeston college",
+        "beeston central college"
+      ]
+    },
+    {
+      "name": "Cator Lane",
+      "lines": [ 1 ],
+      "latitude": 52.922626,
+      "longitude": -1.2340283,
+      "spellings": [
+        "cator lane",
+        "cator ln"
+      ]
+    },
+    {
+      "name": "Bramcote Lane",
+      "lines": [ 1 ],
+      "latitude": 52.921581,
+      "longitude": -1.2387913,
+      "spellings": [
+        "bramcote lane",
+        "bramcote ln",
+        "bramcoat lane",
+        "bramcoat ln"
+      ]
+    },
+    {
+      "name": "Eskdale Drive",
+      "lines": [ 1 ],
+      "latitude": 52.920286,
+      "longitude": -1.2457754,
+      "spellings": [
+        "eskdale drive",
+        "eskdale dr"
+      ]
+    },
+    {
+      "name": "Inham Road",
+      "lines": [ 1 ],
+      "latitude": 52.919582,
+      "longitude": -1.2540263,
+      "spellings": [
+        "inham road",
+        "inham rd",
+        "innham road",
+        "innham rd"
+      ]
+    },
+    {
+      "name": "Toton Lane",
+      "lines": [ 1 ],
+      "latitude": 52.9184276,
+      "longitude": -1.2658761,
+      "spellings": [
+        "toton lane",
+        "toton ln",
+        "total la"
+      ]
+    },
+    {
+      "name": "David Lane",
+      "lines": [ 1, 2 ],
+      "latitude": 52.984894,
+      "longitude": -1.1847373,
+      "spellings": [
+        "david lane",
+        "david ln",
+        "david la"
+      ]
+    },
+    {
+      "name": "Basford",
+      "lines": [ 1, 2 ],
+      "latitude": 52.981686,
+      "longitude": -1.1811493,
+      "spellings": [
+        "basford",
+        "bassford",
+        "baseford"
+      ]
+    },
+    {
+      "name": "Wilkinson Street",
+      "lines": [ 1, 2 ],
+      "latitude": 52.972056,
+      "longitude": -1.1807227,
+      "spellings": [
+        "wilkinson street",
+        "wilkinson st",
+        "wilkinson str"
+      ]
+    },
+    {
+      "name": "Shipstone Street",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9715151,
+      "longitude": -1.1762386,
+      "spellings": [
+        "shipstone street",
+        "shipstone st",
+        "shipstone str",
+        "ship stone street",
+        "ship stone st",
+        "ship stone str",
+        "shipston street",
+        "shipston st",
+        "shipston str"
+      ]
+    },
+    {
+      "name": "Beaconsfield Street",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9702795,
+      "longitude": -1.1730928,
+      "spellings": [
+        "beaconsfield street",
+        "beaconsfield st",
+        "beaconsfield str",
+        "beacons field street",
+        "beacons field st",
+        "beacons field str"
+      ]
+    },
+    {
+      "name": "Noel Street",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9674279,
+      "longitude": -1.1713717,
+      "spellings": [
+        "noel street",
+        "noel st",
+        "noel str"
+      ]
+    },
+    {
+      "name": "Radford Road",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9698488,
+      "longitude": -1.1765246,
+      "spellings": [
+        "radford road",
+        "radford rd"
+      ]
+    },
+    {
+      "name": "Hyson Green Market",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9663272,
+      "longitude": -1.1734862,
+      "spellings": [
+        "hyson green market",
+        "hyson green mkt",
+        "hyson green"
+      ]
+    },
+    {
+      "name": "The Forest",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9653846,
+      "longitude": -1.1698225,
+      "spellings": [
+        "the forest",
+        "forest rec",
+        "forest recreation",
+        "forest recreation ground"
+      ]
+    },
+    {
+      "name": "High School",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9622879,
+      "longitude": -1.1641329,
+      "spellings": [
+        "high school",
+        "high sch",
+        "nottingham high school",
+        "nottingham high sch",
+        "nottingham high"
+      ]
+    },
+    {
+      "name": "Nottingham Trent University",
+      "lines": [ 1, 2 ],
+      "latitude": 52.957883,
+      "longitude": -1.1598948,
+      "spellings": [
+        "nottingham trent university",
+        "nottingham trent",
+        "trent university",
+        "trent uni",
+        "ntu",
+        "ntu campus"
+      ]
+    },
+    {
+      "name": "Royal Centre",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9551982,
+      "longitude": -1.1543968,
+      "spellings": [
+        "royal centre",
+        "royal center",
+        "theatre royal",
+        "theater royal"
+      ]
+    },
+    {
+      "name": "Old Market Square",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9531453,
+      "longitude": -1.152568,
+      "spellings": [
+        "old market square",
+        "old market sq",
+        "market square",
+        "market sq"
+      ]
+    },
+    {
+      "name": "Lace Market",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9530064,
+      "longitude": -1.1480968,
+      "spellings": [
+        "lace market",
+        "lace mkt",
+        "the lace market",
+        "the lace mkt",
+        "hockley",
+        "hockly"
+      ]
+    },
+    {
+      "name": "Nottingham Station",
+      "lines": [ 1, 2 ],
+      "latitude": 52.9471816,
+      "longitude": -1.1488292,
+      "spellings": [
+        "nottingham station",
+        "nottingham stn",
+        "railway station",
+        "railway stn"
+      ]
+    }
+  ]
+}
