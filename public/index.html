@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TODO TITLE</title>
+  <title>Nottingham Tram Station Guessing Game</title>
   <link rel="stylesheet" href="css/bulma.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/app.css">
@@ -14,17 +14,6 @@
 </head>
 
 <body>
-  <!--
-  <section class="hero has-background-primary is-bold">
-    <div class="hero-body">
-      <div class="container is-flex is-vcentered">
-        <h1 class="title has-text-white">
-          TODO: Title goes here.
-        </h1>
-      </div>
-    </div>
-  </section>
--->
   <main class="container mt-4">
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
@@ -34,19 +23,23 @@
         <div class="tile is-vertical">
           <div class="box">
             <div class="field">
-              <div class="control has-icons-right">
+              <div class="control has-icons-left">
                 <input class="input is-focused" type="text" id="stationInput" placeholder="Station..." autocomplete="off" autofocus>
-                <span class="icon is-right" id="subwayIcon">
+                <span class="icon is-left" id="subwayIcon">
                   <i class="fas fa-subway"></i>
                 </span>
-                <span class="icon is-right is-hidden" id="wrongGuessIcon">
+                <span class="icon is-left is-hidden" id="wrongGuessIcon">
                   <i class="fas fa-times"></i>
                 </span>
-                <span class="icon is-right is-hidden" id="rightGuessIcon">
+                <span class="icon is-left is-hidden" id="rightGuessIcon">
                   <i class="fas fa-check"></i>
                 </span>
+                <span class="icon is-left is-hidden" id="alreadyGotItIcon">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
               </div>
-              <p class="help">Enter the name of a Nottingham Tram station.</p>
+              <p id="inputHelp" class="help">Enter the name of a Nottingham Tram station.</p>
+              <p id="alreadyFoundIt" class="help is-hidden">You've already found this station!</p>
             </div>
           </div>
           <div class="box">
@@ -62,15 +55,14 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
+  <footer class="footer has-background-white">
     <div class="content has-text-centered">
       <p>
-        <strong>TODO Text here</strong> by <a href="https://simonprickett.dev">Simon Prickett</a>. An example
-        application using <a href="TODO">TODO Cloudflare</a>, <a href="http://expressjs.com/">Express</a> and <a
-          href="https://bulma.io/">Bulma</a>.
+        <strong>Nottingham Tram Station Guessing Game</strong> by <a href="https://simonprickett.dev">Simon Prickett</a>. An example
+        application using <a href="TODO">TODO Cloudflare</a> and <a
+          href="https://bulma.io/">Bulma</a>.  <a href="TODO">TODO Source code is available on
+            GitHub</a>.  
       </p>
-      <p><a href="TODO">TODO Source code is available on
-          GitHub</a>.</p>
     </div>
   </footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"

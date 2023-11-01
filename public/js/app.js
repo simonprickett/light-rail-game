@@ -686,11 +686,16 @@ stationInput.addEventListener('keyup', function(event) {
           if (stationsFound.includes(station.id)) {
             // Let the user know this has been found before...
             document.getElementById('subwayIcon').classList.add('is-hidden');
-            document.getElementById('rightGuessIcon').classList.remove('is-hidden');
+            document.getElementById('alreadyGotItIcon').classList.remove('is-hidden');
+            document.getElementById('inputHelp').classList.add('is-hidden');
+            document.getElementById('alreadyFoundIt').classList.remove('is-hidden');
 
+            // Put the input field back after a short delay...
             setTimeout(() => {
-              document.getElementById('rightGuessIcon').classList.add('is-hidden');
+              document.getElementById('alreadyGotItIcon').classList.add('is-hidden');
               document.getElementById('subwayIcon').classList.remove('is-hidden');
+              document.getElementById('alreadyFoundIt').classList.add('is-hidden');
+              document.getElementById('inputHelp').classList.remove('is-hidden');  
               stationInput.value = '';
             }, 750);
 
@@ -711,6 +716,10 @@ stationInput.addEventListener('keyup', function(event) {
           station.marker.bindTooltip(station.name);
           station.marker.addTo(myMap);
 
+          document.getElementById('subwayIcon').classList.add('is-hidden');
+          document.getElementById('rightGuessIcon').classList.remove('is-hidden');
+
+          // Show where the station is on the map.
           myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, { 
             animate: true, 
             duration: 0.5
@@ -727,9 +736,15 @@ stationInput.addEventListener('keyup', function(event) {
             </a>
           `;
 
-          stationInput.value = '';
-          stationsFound.push(station.id);
+          stationsFound.push(station.id);  
           updateProgress();
+
+          // Put the input field back after a short delay.
+          setTimeout(() => {
+            document.getElementById('subwayIcon').classList.remove('is-hidden');
+            document.getElementById('rightGuessIcon').classList.add('is-hidden');
+            stationInput.value = '';
+          }, 750);
 
           // All done.
           return;
