@@ -1,9 +1,11 @@
 const myMap = L.map('mapid').setView([52.9529021, -1.1504818], 12);
 const stationInput = document.getElementById('stationInput');
-let currentScore = 0;
+const stationsFound = [];
+
 let maxStations = 0;
 
 function updateProgress() {
+  const currentScore = stationsFound.length;
   const percentFound = ((currentScore / maxStations) * 100).toFixed(1);
   document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} Stations (${percentFound}% found)`;
 }
@@ -668,6 +670,8 @@ updateProgress();
 
 stationInput.addEventListener('animationend', () => {
   stationInput.classList.remove('animate__animated', 'animate__rubberBand');
+  document.getElementById('wrongGuessIcon').classList.add('is-hidden');
+  document.getElementById('subwayIcon').classList.remove('is-hidden');
 });
 
 stationInput.addEventListener('keyup', function(event) {
@@ -679,8 +683,21 @@ stationInput.addEventListener('keyup', function(event) {
       // Check their guess...
       for (const station of stationInfo.stations) {
         if (station.spellings.includes(guess)) {
-          // Found it! Update the marker...
-          // TODO deal with already found it before case.
+          if (stationsFound.includes(station.id)) {
+            // Let the user know this has been found before...
+            document.getElementById('subwayIcon').classList.add('is-hidden');
+            document.getElementById('rightGuessIcon').classList.remove('is-hidden');
+
+            setTimeout(() => {
+              document.getElementById('rightGuessIcon').classList.add('is-hidden');
+              document.getElementById('subwayIcon').classList.remove('is-hidden');
+              stationInput.value = '';
+            }, 750);
+
+            return;
+          }
+
+          // First time finding it! Update the marker...
           myMap.removeLayer(station.marker);
 
           station.marker = L.circleMarker({ lat: station.latitude, lng: station.longitude }, { 
@@ -692,7 +709,6 @@ stationInput.addEventListener('keyup', function(event) {
           });
 
           station.marker.bindTooltip(station.name);
-
           station.marker.addTo(myMap);
 
           myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, { 
@@ -712,7 +728,7 @@ stationInput.addEventListener('keyup', function(event) {
           `;
 
           stationInput.value = '';
-          currentScore += 1;
+          stationsFound.push(station.id);
           updateProgress();
 
           // All done.
@@ -721,6 +737,8 @@ stationInput.addEventListener('keyup', function(event) {
       }
 
       // Animate for an incorrect guess.
+      document.getElementById('subwayIcon').classList.add('is-hidden');
+      document.getElementById('wrongGuessIcon').classList.remove('is-hidden');
       stationInput.classList.add('animate__animated', 'animate__rubberBand');
 
   }
