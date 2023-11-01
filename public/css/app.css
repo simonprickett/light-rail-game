@@ -9,3 +9,12 @@
   border-radius: 0.5rem;
   box-shadow: 3px 1px 8px #a5050563;
 }
+
+.panel-heading {
+  font-size: 1em;
+  text-align: center;
+}
+
+.panel-block {
+  font-size: 0.8em;
+}
