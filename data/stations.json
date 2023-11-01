@@ -1,6 +1,7 @@
 {
   "stations": [
     {
+      "id": 1,
       "name": "Phoenix Park",
       "lines": [ 2 ],
       "latitude": 52.9888701,
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Cinderhill",
       "lines": [ 2 ],
       "latitude": 52.989002,
@@ -21,6 +23,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Highbury Vale",
       "lines": [ 2 ],
       "latitude": 52.9897871,
@@ -30,6 +33,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Queen's Walk",
       "lines": [ 2 ],
       "latitude": 52.9427018,
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Meadows Embankment",
       "lines": [ 2 ],
       "latitude": 52.9390042,
@@ -54,6 +59,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Wilford Village",
       "lines": [ 2 ],
       "latitude": 52.9352505,
@@ -63,6 +69,7 @@
       ]
     },
     {
+      "id": 7,
       "name": "Wilford Lane",
       "lines": [ 2 ],
       "latitude": 52.9259375,
@@ -73,6 +80,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Compton Acres",
       "lines": [ 2 ],
       "latitude": 52.91909,
@@ -82,6 +90,7 @@
       ]
     },
     {
+      "id": 9,
       "name": "Ruddington Lane",
       "lines": [ 2 ],
       "latitude": 52.9144632,
@@ -92,6 +101,7 @@
       ]
     },
     {
+      "id": 10,
       "name": "Southchurch Drive",
       "lines": [ 2 ],
       "latitude": 52.9108988,
@@ -104,6 +114,7 @@
       ]
     },
     {
+      "id": 11,
       "name": "Rivergreen",
       "lines": [ 2 ],
       "latitude": 52.906933,
@@ -114,6 +125,7 @@
       ]
     },
     {
+      "id": 12,
       "name": "Clifton Centre",
       "lines": [ 2 ],
       "latitude": 52.9036867,
@@ -125,6 +137,7 @@
       ]
     },
     {
+      "id": 13,
       "name": "Holy Trinity",
       "lines": [ 2 ],
       "latitude": 52.897312,
@@ -134,6 +147,7 @@
       ]
     },
     {
+      "id": 14,
       "name": "Summerwood Lane",
       "lines": [ 2 ],
       "latitude": 52.8969818,
@@ -146,6 +160,7 @@
       ]
     },
     {
+      "id": 15,
       "name": "Clifton South",
       "lines": [ 2 ],
       "latitude": 52.896671,
@@ -157,6 +172,7 @@
       ]
     },
     {
+      "id": 16,
       "name": "Hucknall",
       "lines": [ 1 ],
       "latitude": 53.0387698,
@@ -166,6 +182,7 @@
       ]
     },
     {
+      "id": 17,
       "name": "Butler's Hill",
       "lines": [ 1 ],
       "latitude": 53.0288049,
@@ -176,6 +193,7 @@
       ]
     },
     {
+      "id": 18,
       "name": "Moor Bridge",
       "lines": [ 1 ],
       "latitude": 53.014484,
@@ -187,6 +205,7 @@
       ]
     },
     {
+      "id": 19,
       "name": "Bulwell Forest",
       "lines": [ 1 ],
       "latitude": 53.0060014,
@@ -197,6 +216,7 @@
       ]
     },
     {
+      "id": 20,
       "name": "Bulwell",
       "lines": [ 1 ],
       "latitude": 52.9992301,
@@ -207,6 +227,7 @@
       ]
     },
     {
+      "id": 21,
       "name": "Highbury Vale",
       "lines": [ 1 ],
       "latitude": 52.9897872,
@@ -216,6 +237,7 @@
       ]
     },
     {
+      "id": 22,
       "name": "Meadows Way West",
       "lines": [ 1 ],
       "latitude": 52.9433398,
@@ -230,6 +252,7 @@
       ]
     },
     {
+      "id": 23,
       "name": "NG2",
       "lines": [ 1 ],
       "latitude": 52.9418269,
@@ -240,6 +263,7 @@
       ]
     },
     {
+      "id": 24,
       "name": "Gregory Street",
       "lines": [ 1 ],
       "latitude": 52.9438643,
@@ -251,6 +275,7 @@
       ]
     },
     {
+      "id": 25,
       "name": "Queen's Medical Centre",
       "lines": [ 1 ],
       "latitude": 52.9425645,
@@ -268,6 +293,7 @@
       ]
     },
     {
+      "id": 26,
       "name": "University of Nottingham",
       "lines": [ 1 ],
       "latitude": 52.9367003,
@@ -280,6 +306,7 @@
       ]
     },
     {
+      "id": 27,
       "name": "University Boulevard",
       "lines": [ 1 ],
       "latitude": 52.932217,
@@ -290,6 +317,7 @@
       ]
     },
     {
+      "id": 28,
       "name": "Middle Street",
       "lines": [ 1 ],
       "latitude": 52.927868,
@@ -301,6 +329,7 @@
       ]
     },
     {
+      "id": 29,
       "name": "Beeston Centre",
       "lines": [ 1 ],
       "latitude": 52.925362,
@@ -311,6 +340,7 @@
       ]
     },
     {
+      "id": 30,
       "name": "Chilwell Road",
       "lines": [ 1 ],
       "latitude": 52.922718,
@@ -327,6 +357,7 @@
       ]
     },
     {
+      "id": 31,
       "name": "High Road - Central College",
       "lines": [ 1 ],
       "latitude": 52.9212989,
@@ -344,6 +375,7 @@
       ]
     },
     {
+      "id": 32,
       "name": "Cator Lane",
       "lines": [ 1 ],
       "latitude": 52.922626,
@@ -354,6 +386,7 @@
       ]
     },
     {
+      "id": 33,
       "name": "Bramcote Lane",
       "lines": [ 1 ],
       "latitude": 52.921581,
@@ -366,6 +399,7 @@
       ]
     },
     {
+      "id": 34,
       "name": "Eskdale Drive",
       "lines": [ 1 ],
       "latitude": 52.920286,
@@ -376,6 +410,7 @@
       ]
     },
     {
+      "id": 35,
       "name": "Inham Road",
       "lines": [ 1 ],
       "latitude": 52.919582,
@@ -388,6 +423,7 @@
       ]
     },
     {
+      "id": 36,
       "name": "Toton Lane",
       "lines": [ 1 ],
       "latitude": 52.9184276,
@@ -399,6 +435,7 @@
       ]
     },
     {
+      "id": 37,
       "name": "David Lane",
       "lines": [ 1, 2 ],
       "latitude": 52.984894,
@@ -410,6 +447,7 @@
       ]
     },
     {
+      "id": 38,
       "name": "Basford",
       "lines": [ 1, 2 ],
       "latitude": 52.981686,
@@ -421,6 +459,7 @@
       ]
     },
     {
+      "id": 39,
       "name": "Wilkinson Street",
       "lines": [ 1, 2 ],
       "latitude": 52.972056,
@@ -432,6 +471,7 @@
       ]
     },
     {
+      "id": 40,
       "name": "Shipstone Street",
       "lines": [ 1, 2 ],
       "latitude": 52.9715151,
@@ -449,6 +489,7 @@
       ]
     },
     {
+      "id": 41,
       "name": "Beaconsfield Street",
       "lines": [ 1, 2 ],
       "latitude": 52.9702795,
@@ -463,6 +504,7 @@
       ]
     },
     {
+      "id": 42,
       "name": "Noel Street",
       "lines": [ 1, 2 ],
       "latitude": 52.9674279,
@@ -474,6 +516,7 @@
       ]
     },
     {
+      "id": 43,
       "name": "Radford Road",
       "lines": [ 1, 2 ],
       "latitude": 52.9698488,
@@ -484,6 +527,7 @@
       ]
     },
     {
+      "id": 44,
       "name": "Hyson Green Market",
       "lines": [ 1, 2 ],
       "latitude": 52.9663272,
@@ -495,6 +539,7 @@
       ]
     },
     {
+      "id": 45,
       "name": "The Forest",
       "lines": [ 1, 2 ],
       "latitude": 52.9653846,
@@ -507,6 +552,7 @@
       ]
     },
     {
+      "id": 46,
       "name": "High School",
       "lines": [ 1, 2 ],
       "latitude": 52.9622879,
@@ -520,6 +566,7 @@
       ]
     },
     {
+      "id": 47,
       "name": "Nottingham Trent University",
       "lines": [ 1, 2 ],
       "latitude": 52.957883,
@@ -534,6 +581,7 @@
       ]
     },
     {
+      "id": 48,
       "name": "Royal Centre",
       "lines": [ 1, 2 ],
       "latitude": 52.9551982,
@@ -546,6 +594,7 @@
       ]
     },
     {
+      "id": 49,
       "name": "Old Market Square",
       "lines": [ 1, 2 ],
       "latitude": 52.9531453,
@@ -558,6 +607,7 @@
       ]
     },
     {
+      "id": 50,
       "name": "Lace Market",
       "lines": [ 1, 2 ],
       "latitude": 52.9530064,
@@ -572,6 +622,7 @@
       ]
     },
     {
+      "id": 51,
       "name": "Nottingham Station",
       "lines": [ 1, 2 ],
       "latitude": 52.9471816,
@@ -580,7 +631,9 @@
         "nottingham station",
         "nottingham stn",
         "railway station",
-        "railway stn"
+        "railway stn",
+        "train station",
+        "train stn"
       ]
     }
   ]
