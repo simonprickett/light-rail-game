@@ -1,6 +1,12 @@
 const myMap = L.map('mapid').setView([52.9529021, -1.1504818], 12);
 const stationInput = document.getElementById('stationInput');
-const currentScore = 0;
+let currentScore = 0;
+let maxStations = 0;
+
+function updateProgress() {
+  const percentFound = ((currentScore / maxStations) * 100).toFixed(1);
+  document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} Stations (${percentFound}% found)`;
+}
 
 L.tileLayer(
   'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png',
@@ -655,6 +661,11 @@ const stationInfo = {
   ]
 };
 
+maxStations = stationInfo.stations.length;
+
+// Initialise the found stations header.
+updateProgress();
+
 stationInput.addEventListener('animationend', () => {
   stationInput.classList.remove('animate__animated', 'animate__rubberBand');
 });
@@ -674,9 +685,9 @@ stationInput.addEventListener('keyup', function(event) {
 
           station.marker = L.circleMarker({ lat: station.latitude, lng: station.longitude }, { 
             radius: 5,
-            color: '#00ff00',
+            color: '#00d1b2',
             fill: true,
-            fillColor: '#00ff00',
+            fillColor: '#00d1b2',
             fillOpacity: 1
           });
 
@@ -689,7 +700,20 @@ stationInput.addEventListener('keyup', function(event) {
             duration: 0.5
           });
 
+          const foundStationsList = document.getElementById('foundStationsList');
+          foundStationsList.innerHTML = `
+            ${foundStationsList.innerHTML}
+            <a class="panel-block is-active">
+              <span class="panel-icon">
+                <i class="fas fa-subway" aria-hidden="true"></i>
+            </span>
+            ${station.name}
+            </a>
+          `;
+
           stationInput.value = '';
+          currentScore += 1;
+          updateProgress();
 
           // All done.
           return;
