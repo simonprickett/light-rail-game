@@ -22,6 +22,398 @@ L.tileLayer(
   }
 ).addTo(myMap);
 
+// Load the track segments...
+// TODO move this to a Cloudflare function.
+const trackSegments = {
+  "tracks": [
+    {
+      "segment": "Hucknall To Highbury Vale",
+      "points": [
+        {
+          "latitude": 53.03822917548256,
+          "longitude": -1.1958210066220325
+        },
+        {
+          "latitude": 53.03649380667707,
+          "longitude": -1.19449599541322
+        },
+        {
+          "latitude": 53.03477449695946,
+          "longitude": -1.1930958823545348
+        },
+        {
+          "latitude": 53.031325993727904,
+          "longitude": -1.190338571579922
+        },
+        {
+          "latitude": 53.029858118693475,
+          "longitude": -1.189153035235213
+        },
+        {
+          "latitude": 53.02882573709652,
+          "longitude": -1.188466389750494
+        },
+        {
+          "latitude": 53.02828372686561,
+          "longitude": -1.188176711186613
+        },
+        {
+          "latitude": 53.02775784138134,
+          "longitude": -1.1879353123833891
+        },
+        {
+          "latitude": 53.027286797405694,
+          "longitude": -1.187760968803273
+        },
+        {
+          "latitude": 53.026815748285834,
+          "longitude": -1.1875866252231773
+        },
+        {
+          "latitude": 53.026086579914455,
+          "longitude": -1.1873774129270689
+        },
+        {
+          "latitude": 53.02536385219728,
+          "longitude": -1.1872593957343751
+        },
+        {
+          "latitude": 53.02494440645112,
+          "longitude": -1.187195022720176
+        },
+        {
+          "latitude": 53.024402347445665,
+          "longitude": -1.187136014123845
+        },
+        {
+          "latitude": 53.02387318803679,
+          "longitude": -1.1871091920345982
+        },
+        {
+          "latitude": 53.0228180764263,
+          "longitude": -1.1870877343631878
+        },
+        {
+          "latitude": 53.02069486843021,
+          "longitude": -1.1870394546025305
+        },
+        {
+          "latitude": 53.01645136610733,
+          "longitude": -1.1869643527526574
+        },
+        {
+          "latitude": 53.015431572553744,
+          "longitude": -1.186905344156295
+        },
+        {
+          "latitude": 53.014966848510134,
+          "longitude": -1.1869214374098684
+        },
+        {
+          "latitude": 53.01445370989795,
+          "longitude": -1.1870501834382357
+        },
+        {
+          "latitude": 53.01379533443993,
+          "longitude": -1.1871011454078113
+        },
+        {
+          "latitude": 53.013346729722095,
+          "longitude": -1.1872245270183417
+        },
+        {
+          "latitude": 53.01271496373123,
+          "longitude": -1.1874337393144498
+        },
+        {
+          "latitude": 53.01205938579544,
+          "longitude": -1.187610765103475
+        },
+        {
+          "latitude": 53.01032013970549,
+          "longitude": -1.1881364780527426
+        },
+        {
+          "latitude": 53.00805752215139,
+          "longitude": -1.188957233983697
+        },
+        {
+          "latitude": 53.00749911183901,
+          "longitude": -1.1891932683690527
+        },
+        {
+          "latitude": 53.00693746643434,
+          "longitude": -1.1894883113507706
+        },
+        {
+          "latitude": 53.00639760210962,
+          "longitude": -1.189823587466359
+        },
+        {
+          "latitude": 53.00589404544265,
+          "longitude": -1.1901776390444392
+        },
+        {
+          "latitude": 53.00512255941146,
+          "longitude": -1.1907838182614172
+        },
+        {
+          "latitude": 53.00436719989688,
+          "longitude": -1.1914704637461362
+        },
+        {
+          "latitude": 53.002862897561485,
+          "longitude": -1.192833025879901
+        },
+        {
+          "latitude": 53.00134885794948,
+          "longitude": -1.1942063168493389
+        },
+        {
+          "latitude": 53.00096791851416,
+          "longitude": -1.1945228175024671
+        },
+        {
+          "latitude": 53.000570833999504,
+          "longitude": -1.194812496066317
+        },
+        {
+          "latitude": 53.00017697420659,
+          "longitude": -1.1950646237052456
+        },
+        {
+          "latitude": 52.9996604313273,
+          "longitude": -1.1953489378512585
+        },
+        {
+          "latitude": 52.9991535676199,
+          "longitude": -1.195547421311693
+        },
+        {
+          "latitude": 52.99860472759642,
+          "longitude": -1.1957244471007176
+        },
+        {
+          "latitude": 52.99797516721391,
+          "longitude": -1.195810277786327
+        },
+        {
+          "latitude": 52.99735689769946,
+          "longitude": -1.1958531931291163
+        },
+        {
+          "latitude": 52.99673539070125,
+          "longitude": -1.1958424642934111
+        },
+        {
+          "latitude": 52.996120332111936,
+          "longitude": -1.1957807734881616
+        },
+        {
+          "latitude": 52.995511722207375,
+          "longitude": -1.195635934206221
+        },
+        {
+          "latitude": 52.99490794687675,
+          "longitude": -1.1954079464476208
+        },
+        {
+          "latitude": 52.99430739191692,
+          "longitude": -1.1951129034659027
+        },
+        {
+          "latitude": 52.99372943060153,
+          "longitude": -1.1947534874699857
+        },
+        {
+          "latitude": 52.993135317053074,
+          "longitude": -1.1942921475349484
+        },
+        {
+          "latitude": 52.992583171590795,
+          "longitude": -1.1937717990035488
+        },
+        {
+          "latitude": 52.99203747703432,
+          "longitude": -1.1931763486222446
+        },
+        {
+          "latitude": 52.99153698188207,
+          "longitude": -1.1925272540624778
+        },
+        {
+          "latitude": 52.991078458651785,
+          "longitude": -1.1918406085777586
+        },
+        {
+          "latitude": 52.990645763251834,
+          "longitude": -1.1911298232126888
+        },
+        {
+          "latitude": 52.98908770099821,
+          "longitude": -1.1886105584801658
+        }
+      ]
+    },
+    {
+      "segment": "The Forest to Wilkinson Street",
+      "points": [
+        {
+          "latitude": 52.96653132185581,
+          "longitude": -1.1681384647519628
+        },
+        {
+          "latitude": 52.96717038696437,
+          "longitude": -1.1685821021081255
+        },
+        {
+          "latitude": 52.96826724362744,
+          "longitude": -1.169263249064548
+        },
+        {
+          "latitude": 52.968716316822814,
+          "longitude": -1.1695448810016422
+        },
+        {
+          "latitude": 52.969167000698654,
+          "longitude": -1.1697944605420814
+        },
+        {
+          "latitude": 52.970158811746515,
+          "longitude": -1.1703899109233855
+        },
+        {
+          "latitude": 52.97066278518714,
+          "longitude": -1.1707117759943353
+        },
+        {
+          "latitude": 52.9709147697038,
+          "longitude": -1.1708727085298332
+        },
+        {
+          "latitude": 52.97115867639443,
+          "longitude": -1.1710255273833248
+        },
+        {
+          "latitude": 52.971200673434055,
+          "longitude": -1.1710522824173475
+        },
+        {
+          "latitude": 52.97124267043287,
+          "longitude": -1.171103244386923
+        },
+        {
+          "latitude": 52.97127336052158,
+          "longitude": -1.1711649351921725
+        },
+        {
+          "latitude": 52.97128951319109,
+          "longitude": -1.1712373548331585
+        },
+        {
+          "latitude": 52.97128951319109,
+          "longitude": -1.1713553720258203
+        },
+        {
+          "latitude": 52.97127012998695,
+          "longitude": -1.1714760714274324
+        },
+        {
+          "latitude": 52.97122974828375,
+          "longitude": -1.1716396861718648
+        },
+        {
+          "latitude": 52.97120228870403,
+          "longitude": -1.1717925720805604
+        },
+        {
+          "latitude": 52.971192597083466,
+          "longitude": -1.1718918138107624
+        },
+        {
+          "latitude": 52.9711893665428,
+          "longitude": -1.1720044665856189        },
+        {
+          "latitude": 52.971195827623895,
+          "longitude": -1.1721117549426072
+        },
+        {
+          "latitude": 52.97121036505278,
+          "longitude": -1.1722109966728087
+        },
+        {
+          "latitude": 52.97122974828375,
+          "longitude": -1.1723129206119605
+        },
+        {
+          "latitude": 52.971258823113864,
+          "longitude": -1.1724067979243251
+        },
+        {
+          "latitude": 52.97129274372427,
+          "longitude": -1.1724872641920665
+        },
+        {
+          "latitude": 52.97132020324655,
+          "longitude": -1.1725489549973158
+        },
+        {
+          "latitude": 52.97143246405318,
+          "longitude": -1.1727891468065248
+        },
+        {
+          "latitude": 52.971474460826734,
+          "longitude": -1.17291252841705
+        },
+        {
+          "latitude": 52.97149707445715,
+          "longitude": -1.1730037235205013
+        },
+        {
+          "latitude": 52.97150999652635,
+          "longitude": -1.1730841897882427
+        },
+        {
+          "latitude": 52.971518072817666,
+          "longitude": -1.173180749309526
+        },
+        {
+          "latitude": 52.971521303333745,
+          "longitude": -1.1732719444129722
+        },
+        {
+          "latitude": 52.971520091890234,
+          "longitude": -1.173649398263914
+        },
+        {
+          "latitude": 52.97152614910745,
+          "longitude": -1.1748088501268428
+        },
+        {
+          "latitude": 52.97154553219676,
+          "longitude": -1.1753774784188684
+        },
+        {
+          "latitude": 52.97155522373816,
+          "longitude": -1.175876369278858
+        },
+        {
+          "latitude": 52.971566530533714,
+          "longitude": -1.1760694883214555
+        },
+        {
+          "latitude": 52.97160691192228,
+          "longitude": -1.1763913533924206
+        },
+        {
+          "latitude": 52.97168928983794,
+          "longitude": -1.1768124601935874
+        }
+      ]
+    }
+  ]
+};
+
 // Load the stations...
 // TODO move this to a Cloudflare function.
 const stationInfo = {
@@ -758,6 +1150,22 @@ stationInput.addEventListener('keyup', function(event) {
 
   }
 });
+
+// Draw the track segments.
+for (const segment of trackSegments.tracks) {
+  const latLngs = [];
+
+  for (const point of segment.points) {
+    latLngs.push({ lat: point.latitude, lng: point.longitude });
+  }
+
+  const segmentLine = L.polyline(latLngs, {
+    color: '#ff0000',
+    weight: 6
+  });
+
+  segmentLine.addTo(myMap);
+}
 
 // Draw the station markers.
 for (const station of stationInfo.stations) {
