@@ -3488,7 +3488,11 @@ stationInput.addEventListener('keyup', async function (event) {
           fillOpacity: 1
         });
 
-        station.marker.bindTooltip(reply.stationName);
+        station.marker.bindPopup(`<b style="font-size:1.5em">${reply.stationName}</b><hr/><p>${reply.stationDescription}</p>`).openPopup();
+        station.marker.on('mouseover', function (e) {
+          this.openPopup();
+        });
+        
         station.marker.addTo(myMap);
 
         document.getElementById('subwayIcon').classList.add('is-hidden');
