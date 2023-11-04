@@ -3208,8 +3208,8 @@ const stationInfo = {
       "id": 3,
       "name": "Highbury Vale",
       "lines": [ 2 ],
-      "latitude": 52.9897871,
-      "longitude": -1.1945399,
+      "latitude": 52.989670346353,
+      "longitude": -1.189563786604,
       "spellings": [
         "highbury vale"
       ]
@@ -3410,16 +3410,6 @@ const stationInfo = {
     },
     {
       "id": 21,
-      "name": "Highbury Vale",
-      "lines": [ 1 ],
-      "latitude": 52.989772286568744,
-      "longitude": -1.1896991329723052,
-      "spellings": [
-        "highbury vale"
-      ]
-    },
-    {
-      "id": 22,
       "name": "Meadows Way West",
       "lines": [ 1 ],
       "latitude": 52.94353523508301,
@@ -3434,7 +3424,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "NG2",
       "lines": [ 1 ],
       "latitude": 52.94183680706651,
@@ -3445,7 +3435,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Gregory Street",
       "lines": [ 1 ],
       "latitude": 52.943863279938675,
@@ -3457,7 +3447,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Queen's Medical Centre",
       "lines": [ 1 ],
       "latitude": 52.94254832604121,
@@ -3475,7 +3465,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "University of Nottingham",
       "lines": [ 1 ],
       "latitude": 52.937277764946664,
@@ -3488,7 +3478,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "University Boulevard",
       "lines": [ 1 ],
       "latitude": 52.932198548625486,
@@ -3499,7 +3489,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Middle Street",
       "lines": [ 1 ],
       "latitude": 52.92785580149485,
@@ -3511,7 +3501,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Beeston Centre",
       "lines": [ 1 ],
       "latitude": 52.92540751914861,
@@ -3522,7 +3512,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Chilwell Road",
       "lines": [ 1 ],
       "latitude": 52.92265880696913,
@@ -3539,7 +3529,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "High Road - Central College",
       "lines": [ 1 ],
       "latitude": 52.921239065209,
@@ -3557,7 +3547,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Cator Lane",
       "lines": [ 1 ],
       "latitude": 52.92262969945599,
@@ -3568,7 +3558,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Bramcote Lane",
       "lines": [ 1 ],
       "latitude": 52.9215235994507,
@@ -3581,7 +3571,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "Eskdale Drive",
       "lines": [ 1 ],
       "latitude": 52.92034631577148,
@@ -3592,7 +3582,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Inham Road",
       "lines": [ 1 ],
       "latitude": 52.91953125447315,
@@ -3605,7 +3595,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Toton Lane",
       "lines": [ 1 ],
       "latitude": 52.91843801324574,
@@ -3617,7 +3607,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "David Lane",
       "lines": [ 1, 2 ],
       "latitude": 52.98486046767809,
@@ -3629,7 +3619,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Basford",
       "lines": [ 1, 2 ],
       "latitude": 52.98160499002741,
@@ -3641,7 +3631,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "Wilkinson Street",
       "lines": [ 1, 2 ],
       "latitude": 52.97200830087293,
@@ -3653,7 +3643,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "Shipstone Street",
       "lines": [ 1, 2 ],
       "latitude": 52.97152211096274,
@@ -3671,11 +3661,11 @@ const stationInfo = {
       ]
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "Beaconsfield Street",
       "lines": [ 1, 2 ],
-      "latitude": 52.9702795,
-      "longitude": -1.1730928,
+      "latitude": 52.970121160065,
+      "longitude": -1.1704228106813,
       "spellings": [
         "beaconsfield street",
         "beaconsfield st",
@@ -3686,11 +3676,11 @@ const stationInfo = {
       ]
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "Noel Street",
       "lines": [ 1, 2 ],
-      "latitude": 52.9674279,
-      "longitude": -1.1713717,
+      "latitude": 52.967322320177,
+      "longitude": -1.168689631593,
       "spellings": [
         "noel street",
         "noel st",
@@ -3698,22 +3688,22 @@ const stationInfo = {
       ]
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Radford Road",
       "lines": [ 1, 2 ],
-      "latitude": 52.9698488,
-      "longitude": -1.1765246,
+      "latitude": 52.970148102787,
+      "longitude": -1.1742938361088,
       "spellings": [
         "radford road",
         "radford rd"
       ]
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "Hyson Green Market",
       "lines": [ 1, 2 ],
-      "latitude": 52.9663272,
-      "longitude": -1.1734862,
+      "latitude": 52.966349201354,
+      "longitude": -1.1709416811356,
       "spellings": [
         "hyson green market",
         "hyson green mkt",
@@ -3721,11 +3711,11 @@ const stationInfo = {
       ]
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "The Forest",
       "lines": [ 1, 2 ],
-      "latitude": 52.9653846,
-      "longitude": -1.1698225,
+      "latitude": 52.96524355887,
+      "longitude": -1.1670917242727,
       "spellings": [
         "the forest",
         "forest rec",
@@ -3734,7 +3724,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "High School",
       "lines": [ 1, 2 ],
       "latitude": 52.962330315939624,
@@ -3748,7 +3738,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Nottingham Trent University",
       "lines": [ 1, 2 ],
       "latitude": 52.95783871058926,
@@ -3763,7 +3753,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "Royal Centre",
       "lines": [ 1, 2 ],
       "latitude": 52.955065961581674,
@@ -3776,7 +3766,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "Old Market Square",
       "lines": [ 1, 2 ],
       "latitude": 52.9530622327645,
@@ -3789,7 +3779,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Lace Market",
       "lines": [ 1, 2 ],
       "latitude": 52.95290063768557,
@@ -3804,7 +3794,7 @@ const stationInfo = {
       ]
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Nottingham Station",
       "lines": [ 1, 2 ],
       "latitude": 52.94717889398906,
