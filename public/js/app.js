@@ -27,7 +27,6 @@ L.tileLayer(
 const trackSegments = {
   "tracks": [
     {
-      "segment": "Hucknall To Highbury Vale",
       "points": [
         {
           "latitude": 53.03822917548256,
@@ -256,7 +255,6 @@ const trackSegments = {
       ]
     },
     {
-      "segment": "Phoenix Park to Wilkinson Street",
       "points": [
         {
           "latitude": 52.98885196854976,
@@ -541,7 +539,6 @@ const trackSegments = {
       ]
     },
     {
-      "segment": "Wilkinson Street to Clifton",
       "points": [
         {
           "latitude": 52.97201718469097,
@@ -1786,7 +1783,6 @@ const trackSegments = {
       ]
     },
     {
-      "segment": "Station to Toton",
       "points": [
         {
           "latitude": 52.918392730469435,
@@ -3019,7 +3015,6 @@ const trackSegments = {
       ]
     },
     {
-      "segment": "The Forest to Wilkinson Street",
       "points": [
         {
           "latitude": 52.96653132185581,
