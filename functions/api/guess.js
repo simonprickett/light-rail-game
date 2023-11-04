@@ -167,13 +167,6 @@ const stations = [
   },
   {
     "id": 21,
-    "name": "Highbury Vale",
-    "spellings": [
-      "highbury vale"
-    ]
-  },
-  {
-    "id": 22,
     "name": "Meadows Way West",
     "spellings": [
       "meadows way west",
@@ -185,7 +178,7 @@ const stations = [
     ]
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "NG2",
     "spellings": [
       "ng2",
@@ -193,7 +186,7 @@ const stations = [
     ]
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "Gregory Street",
     "spellings": [
       "gregory street",
@@ -202,7 +195,7 @@ const stations = [
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "Queen's Medical Centre",
     "spellings": [
       "queen's medical centre",
@@ -217,7 +210,7 @@ const stations = [
     ]
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "University of Nottingham",
     "spellings": [
       "university of nottingham",
@@ -227,7 +220,7 @@ const stations = [
     ]
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "University Boulevard",
     "spellings": [
       "university boulevard",
@@ -235,7 +228,7 @@ const stations = [
     ]
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "Middle Street",
     "spellings": [
       "middle street",
@@ -244,7 +237,7 @@ const stations = [
     ]
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "Beeston Centre",
     "spellings": [
       "beeston centre",
@@ -252,7 +245,7 @@ const stations = [
     ]
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "Chilwell Road",
     "spellings": [
       "chilwell road",
@@ -266,7 +259,7 @@ const stations = [
     ]
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "High Road - Central College",
     "spellings": [
       "high road - central college",
@@ -281,7 +274,7 @@ const stations = [
     ]
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Cator Lane",
     "spellings": [
       "cator lane",
@@ -289,7 +282,7 @@ const stations = [
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "Bramcote Lane",
     "spellings": [
       "bramcote lane",
@@ -299,7 +292,7 @@ const stations = [
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "Eskdale Drive",
     "spellings": [
       "eskdale drive",
@@ -307,7 +300,7 @@ const stations = [
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "Inham Road",
     "spellings": [
       "inham road",
@@ -317,7 +310,7 @@ const stations = [
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "Toton Lane",
     "spellings": [
       "toton lane",
@@ -326,7 +319,7 @@ const stations = [
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "David Lane",
     "spellings": [
       "david lane",
@@ -335,7 +328,7 @@ const stations = [
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "name": "Basford",
     "spellings": [
       "basford",
@@ -344,7 +337,7 @@ const stations = [
     ]
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "Wilkinson Street",
     "spellings": [
       "wilkinson street",
@@ -353,7 +346,7 @@ const stations = [
     ]
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "Shipstone Street",
     "spellings": [
       "shipstone street",
@@ -368,7 +361,7 @@ const stations = [
     ]
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "Beaconsfield Street",
     "spellings": [
       "beaconsfield street",
@@ -380,7 +373,7 @@ const stations = [
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "name": "Noel Street",
     "spellings": [
       "noel street",
@@ -389,7 +382,7 @@ const stations = [
     ]
   },
   {
-    "id": 43,
+    "id": 42,
     "name": "Radford Road",
     "spellings": [
       "radford road",
@@ -397,7 +390,7 @@ const stations = [
     ]
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "Hyson Green Market",
     "spellings": [
       "hyson green market",
@@ -406,7 +399,7 @@ const stations = [
     ]
   },
   {
-    "id": 45,
+    "id": 44,
     "name": "The Forest",
     "spellings": [
       "the forest",
@@ -416,7 +409,7 @@ const stations = [
     ]
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "High School",
     "spellings": [
       "high school",
@@ -427,7 +420,7 @@ const stations = [
     ]
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Nottingham Trent University",
     "spellings": [
       "nottingham trent university",
@@ -439,7 +432,7 @@ const stations = [
     ]
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "Royal Centre",
     "spellings": [
       "royal centre",
@@ -449,7 +442,7 @@ const stations = [
     ]
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "Old Market Square",
     "spellings": [
       "old market square",
@@ -459,7 +452,7 @@ const stations = [
     ]
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "Lace Market",
     "spellings": [
       "lace market",
@@ -471,7 +464,7 @@ const stations = [
     ]
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "Nottingham Station",
     "spellings": [
       "nottingham station",
@@ -508,7 +501,7 @@ export async function onRequestPost(context) {
     // and stationName ''.
   }
 
-  return new Response(`{"stationId": ${stationId}, "stationName": ${stationName}}`, {
+  return new Response(`{"stationId": ${stationId}, "stationName": "${stationName}"}`, {
     headers: {
       'content-type': 'application/json;charset=UTF-8'
     }
