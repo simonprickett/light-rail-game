@@ -89,7 +89,13 @@ const stations = [
       "southchurch drive",
       "southchurch dr",
       "south church drive",
-      "south church dr"
+      "south church dr",
+      "southchurch drive north",
+      "southchurch drive n",
+      "south church drive north",
+      "south church drive n",
+      "southchurch dr n",
+      "south church dr n"
     ]
   },
   {
@@ -540,7 +546,6 @@ export async function onRequestPost(context) {
     if (requestData.guess) {
       // Look for the station.
       const guess = requestData.guess.trim().toLowerCase();
-      console.log(guess);
       for (const station of stations) {
         if (station.spellings.includes(guess)) {
           stationId = station.id;
