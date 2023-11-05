@@ -8,6 +8,16 @@ function updateProgress() {
   const currentScore = stationsFound.length;
   const percentFound = ((currentScore / maxStations) * 100).toFixed(1);
   document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} Stations (${percentFound}% found)`;
+
+  // Did they win - pop the modal if so!
+  if (currentScore === maxStations) {
+    setTimeout(
+      () => {
+        document.getElementById('guessed-all').classList.add('is-active');
+      }, 
+      500
+    );
+  }
 }
 
 L.tileLayer(

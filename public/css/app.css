@@ -19,3 +19,13 @@
 .panel-block {
   font-size: 0.8em;
 }
+
+.modal-card-head {
+  background-color: #00d1b2;
+}
+
+.modal-card-title {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00d1b2;
+}
