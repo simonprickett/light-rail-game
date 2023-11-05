@@ -61,7 +61,8 @@ const stations = [
     "description": "This stop is on the stretch of line which uses the former Great Central Railway formation. It is located in the south side of Wilford Lane, where there is a level crossing. On the north side of the road is a maintenance siding.",
     "spellings": [
       "wilford lane",
-      "wilford ln"
+      "wilford ln",
+      "wilford la"
     ]
   },
   {
@@ -78,7 +79,8 @@ const stations = [
     "description": "This stop is at the southern end of the stretch of reserved track on the former Great Central Railway alignment through Wilford and Compton Acres, where the trackbed crosses Ruddington Lane.",
     "spellings": [
       "ruddington lane",
-      "ruddington ln"
+      "ruddington ln",
+      "ruddington la"
     ]
   },
   {
@@ -133,7 +135,9 @@ const stations = [
       "summerwood lane",
       "summer wood lane",
       "summerwood ln",
-      "summer wood ln"
+      "summer wood ln",
+      "summerwood la",
+      "summer wood la"
     ]
   },
   {
@@ -236,7 +240,8 @@ const stations = [
       "queens medical ctr",
       "queens medical",
       "queens",
-      "queen's"
+      "queen's",
+      "qmc"
     ]
   },
   {
@@ -315,7 +320,8 @@ const stations = [
     "description": "This stop in Chilwell is close to the Cator Lane Recreation Ground.",
     "spellings": [
       "cator lane",
-      "cator ln"
+      "cator ln",
+      "cator la"
     ]
   },
   {
@@ -326,7 +332,9 @@ const stations = [
       "bramcote lane",
       "bramcote ln",
       "bramcoat lane",
-      "bramcoat ln"
+      "bramcoat ln",
+      "bramcote la",
+      "bramcoat la"
     ]
   },
   {
@@ -356,7 +364,7 @@ const stations = [
     "spellings": [
       "toton lane",
       "toton ln",
-      "total la"
+      "toton la"
     ]
   },
   {
