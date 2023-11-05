@@ -83,7 +83,7 @@ const stations = [
   },
   {
     "id": 10,
-    "name": "Southchurch Drive",
+    "name": "Southchurch Drive North",
     "description": "This stop in the Clifton estate is near the junction of Southchurch Drive and Farnborough Drive at the north of the estate. It is close to a parade of shops, a community centre and a youth club.",
     "spellings": [
       "southchurch drive",
