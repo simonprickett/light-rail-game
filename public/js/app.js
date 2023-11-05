@@ -3567,3 +3567,8 @@ for (const station of stations) {
   station.marker = marker;
   marker.addTo(myMap);
 }
+
+// Add success modal close button click handler.
+document.getElementById('close-guessed-all').addEventListener('click', (e) => {
+  document.getElementById('guessed-all').classList.remove('is-active');
+});

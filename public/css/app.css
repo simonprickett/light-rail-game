@@ -1,6 +1,7 @@
 #mapid {
   height: 800px;
   margin-top: 1rem;
+  z-index: 0;
 }
 
 #form-control {
