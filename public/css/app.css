@@ -11,6 +11,14 @@
   box-shadow: 3px 1px 8px #a5050563;
 }
 
+#foundStationsBox {
+  height: 100%;
+}
+
+#foundStationsPanel {
+  height: 100%;
+}
+
 .panel-heading {
   font-size: 1em;
   text-align: center;
