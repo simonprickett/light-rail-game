@@ -3504,17 +3504,28 @@ stationInput.addEventListener('keyup', async function (event) {
           duration: 0.5
         });
 
+        // Add the station to the list of found stations.
         const foundStationsList = document.getElementById('foundStationsList');
-        foundStationsList.innerHTML = `
-            ${foundStationsList.innerHTML}
-            <a class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-subway" aria-hidden="true"></i>
-            </span>
-            ${reply.stationName}
-            </a>
-          `;
+        const newFoundStation = document.createElement('a');
+        newFoundStation.id = `found-station-${station.id}`;
+        newFoundStation.classList.add('panel-block', 'is-active');
+        newFoundStation.innerHTML = `
+          <span class="panel-icon">
+            <i class="fas fa-subway" aria-hidden="true"></i>
+          </span>
+          ${reply.stationName}
+        `;
 
+        // Add listener to focus the map on this station when it is clicked in 
+        // the list.
+        newFoundStation.addEventListener('click', (e) => {
+          myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, {
+            animate: true,
+            duration: 0.5
+          }); 
+        });
+
+        foundStationsList.appendChild(newFoundStation);
         stationsFound.push(reply.stationId);
         updateProgress();
 
