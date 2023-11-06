@@ -3443,11 +3443,14 @@ stationInput.addEventListener('animationend', () => {
   stationInput.classList.remove('animate__animated', 'animate__rubberBand');
   document.getElementById('wrongGuessIcon').classList.add('is-hidden');
   document.getElementById('subwayIcon').classList.remove('is-hidden');
+  document.getElementById('stationControl').classList.remove('is-loading');
 });
 
 stationInput.addEventListener('keyup', async function (event) {
   if (event.key === 'Enter') {
     event.preventDefault();
+    document.getElementById('stationControl').classList.add('is-loading');
+
     const guess = stationInput.value.trim().toLowerCase();
 
     // Check their guess...
@@ -3481,6 +3484,7 @@ stationInput.addEventListener('keyup', async function (event) {
           document.getElementById('subwayIcon').classList.remove('is-hidden');
           document.getElementById('alreadyFoundIt').classList.add('is-hidden');
           document.getElementById('inputHelp').classList.remove('is-hidden');
+          document.getElementById('stationControl').classList.remove('is-loading');
           stationInput.value = '';
         }, 750);
       } else {
@@ -3543,6 +3547,7 @@ stationInput.addEventListener('keyup', async function (event) {
         setTimeout(() => {
           document.getElementById('subwayIcon').classList.remove('is-hidden');
           document.getElementById('rightGuessIcon').classList.add('is-hidden');
+          document.getElementById('stationControl').classList.remove('is-loading');
           stationInput.value = '';
         }, 750);
       }
