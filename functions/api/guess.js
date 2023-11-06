@@ -241,7 +241,8 @@ const stations = [
       "queens medical",
       "queens",
       "queen's",
-      "qmc"
+      "qmc",
+      "medical school"
     ]
   },
   {
@@ -252,7 +253,9 @@ const stations = [
       "university of nottingham",
       "nottingham university",
       "nottm university",
-      "university of nottm"
+      "university of nottm",
+      "the university of nottingham",
+      "the university of nottm"
     ]
   },
   {
