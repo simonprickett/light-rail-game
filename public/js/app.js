@@ -3,11 +3,12 @@ const stationInput = document.getElementById('stationInput');
 const stationsFound = [];
 
 let maxStations = 0;
+let numGuesses = 0;
 
 function updateProgress() {
   const currentScore = stationsFound.length;
   const percentFound = ((currentScore / maxStations) * 100).toFixed(1);
-  document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} Stations (${percentFound}% found)`;
+  document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} stations (${percentFound}%): ${numGuesses} guess${numGuesses == 1 ? '' : 'es'}`;
 
   // Did they win - pop the modal if so!
   if (currentScore === maxStations) {
@@ -3469,6 +3470,8 @@ stationInput.addEventListener('keyup', async function (event) {
       document.getElementById('subwayIcon').classList.add('is-hidden');
       document.getElementById('wrongGuessIcon').classList.remove('is-hidden');
       stationInput.classList.add('animate__animated', 'animate__rubberBand');
+      numGuesses += 1;
+      updateProgress();
     } else {
       // Good guess!
       if (stationsFound.includes(reply.stationId)) {
@@ -3540,6 +3543,7 @@ stationInput.addEventListener('keyup', async function (event) {
         });
 
         foundStationsList.prepend(newFoundStation);
+        numGuesses += 1;
         stationsFound.push(reply.stationId);
         updateProgress();
 
