@@ -1,4 +1,4 @@
-const myMap = L.map('mapid').setView([52.9529021, -1.1504818], 12);
+const myMap = L.map('mapid').setView([52.962289, -1.173134], 12);
 const stationInput = document.getElementById('stationInput');
 const stationsFound = [];
 
