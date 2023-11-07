@@ -3539,7 +3539,7 @@ stationInput.addEventListener('keyup', async function (event) {
           }); 
         });
 
-        foundStationsList.appendChild(newFoundStation);
+        foundStationsList.prepend(newFoundStation);
         stationsFound.push(reply.stationId);
         updateProgress();
 
