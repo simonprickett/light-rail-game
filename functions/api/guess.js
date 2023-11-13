@@ -5,7 +5,9 @@ const stations = [
     "description": "This stop is at the end of the single-track branch from Highbury Vale. The stop is a Park &amp; Ride site, with trams taking over from buses on a well-established operation.",
     "spellings": [
       "phoenix park",
-      "phoenix pk"
+      "phoenix pk",
+      "pheonix park",
+      "pheonix pk"
     ]
   },
   {
