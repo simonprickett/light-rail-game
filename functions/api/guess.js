@@ -552,6 +552,7 @@ export async function onRequestPost(context) {
   let stationId = 0;
   let stationName = '';
   let stationDescription = '';
+  let stationSpellings = {};
 
   try {
     const requestData = await context.request.json();
@@ -564,6 +565,7 @@ export async function onRequestPost(context) {
           stationId = station.id;
           stationName = station.name;
           stationDescription = station.description;
+          stationSpellings = station.spellings;
           break;
         }
       }
@@ -573,9 +575,12 @@ export async function onRequestPost(context) {
     // and stationName '', stationDescription ''.
   }
 
-  return new Response(`{ "stationId": ${stationId}, "stationName": "${stationName}", "stationDescription": "${stationDescription}" }`, {
-    headers: {
-      'content-type': 'application/json;charset=UTF-8'
+  return new Response(
+    `{ "stationId": ${stationId}, "stationName": "${stationName}", "stationDescription": "${stationDescription}", "stationSpellings": ${JSON.stringify(stationSpellings)} }`, 
+    {
+      headers: {
+        'content-type': 'application/json;charset=UTF-8'
+      }
     }
-  });
+  );
 }
