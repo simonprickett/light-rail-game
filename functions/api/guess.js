@@ -572,7 +572,7 @@ export async function onRequestPost(context) {
     }
   } catch (e) {
     // Swallow errors as we will just return stationId 0
-    // and stationName '', stationDescription ''.
+    // and stationName '', stationDescription '', stationSpellings {}.
   }
 
   return new Response(
