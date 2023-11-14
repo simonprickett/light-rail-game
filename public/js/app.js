@@ -1,12 +1,12 @@
 const myMap = L.map('mapid').setView([52.962289, -1.173134], 12);
 const stationInput = document.getElementById('stationInput');
-const stationsFound = [];
+const stationsFound = {};
 
 let maxStations = 0;
 let numGuesses = 0;
 
 function updateProgress() {
-  const currentScore = stationsFound.length;
+  const currentScore = Object.keys(stationsFound).length;
   const percentFound = ((currentScore / maxStations) * 100).toFixed(1);
   document.getElementById('progressOverview').innerText = `${currentScore} of ${maxStations} stations (${percentFound}%): ${numGuesses} guess${numGuesses == 1 ? '' : 'es'}`;
 
@@ -15,7 +15,7 @@ function updateProgress() {
     setTimeout(
       () => {
         document.getElementById('guessed-all').classList.add('is-active');
-      }, 
+      },
       500
     );
   }
@@ -3453,43 +3453,36 @@ stationInput.addEventListener('keyup', async function (event) {
     document.getElementById('stationControl').classList.add('is-loading');
 
     const guess = stationInput.value.trim().toLowerCase();
+    let alreadyFound = false;
 
-    // Check their guess...
-    const resp = await fetch('/api/guess', {
-      method: 'POST',
-      cache: 'no-cache',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: `{ "guess": "${guess}" }`
-    });
-    const reply = await resp.json();
+    // Does this guess match a previously guessed station? (save time/API call).
+    for (const id in stationsFound) {
+      if (stationsFound[id].includes(guess)) {
+        // Guessed this one before, no need to call the backend function for this.
+        alreadyFound = true;
+        break;
+      }
+    }
 
-    if (reply.stationId === 0) {
-      // Bad guess, provide some animated feedback.
-      document.getElementById('subwayIcon').classList.add('is-hidden');
-      document.getElementById('wrongGuessIcon').classList.remove('is-hidden');
-      stationInput.classList.add('animate__animated', 'animate__rubberBand');
-      numGuesses += 1;
-      updateProgress();
-    } else {
-      // Good guess!
-      if (stationsFound.includes(reply.stationId)) {
-        // Let the user know this has been found before...
+    if (!alreadyFound) {
+      // Check their guess against the API...
+      const resp = await fetch('/api/guess', {
+        method: 'POST',
+        cache: 'no-cache',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: `{ "guess": "${guess}" }`
+      });
+      const reply = await resp.json();
+
+      if (reply.stationId === 0) {
+        // Bad guess, provide some animated feedback.
         document.getElementById('subwayIcon').classList.add('is-hidden');
-        document.getElementById('alreadyGotItIcon').classList.remove('is-hidden');
-        document.getElementById('inputHelp').classList.add('is-hidden');
-        document.getElementById('alreadyFoundIt').classList.remove('is-hidden');
-
-        // Put the input field back after a short delay...
-        setTimeout(() => {
-          document.getElementById('alreadyGotItIcon').classList.add('is-hidden');
-          document.getElementById('subwayIcon').classList.remove('is-hidden');
-          document.getElementById('alreadyFoundIt').classList.add('is-hidden');
-          document.getElementById('inputHelp').classList.remove('is-hidden');
-          document.getElementById('stationControl').classList.remove('is-loading');
-          stationInput.value = '';
-        }, 750);
+        document.getElementById('wrongGuessIcon').classList.remove('is-hidden');
+        stationInput.classList.add('animate__animated', 'animate__rubberBand');
+        numGuesses += 1;
+        updateProgress();
       } else {
         // First time finding it! Get the station info...
         const station = stations.filter((s) => s.id === reply.stationId)[0];
@@ -3509,7 +3502,7 @@ stationInput.addEventListener('keyup', async function (event) {
         station.marker.on('mouseover', function (e) {
           this.openPopup();
         });
-        
+
         station.marker.addTo(myMap);
 
         document.getElementById('subwayIcon').classList.add('is-hidden');
@@ -3539,12 +3532,12 @@ stationInput.addEventListener('keyup', async function (event) {
           myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, {
             animate: true,
             duration: 0.5
-          }); 
+          });
         });
 
         foundStationsList.prepend(newFoundStation);
         numGuesses += 1;
-        stationsFound.push(reply.stationId);
+        stationsFound[reply.stationId] = reply.stationSpellings;
         updateProgress();
 
         // Put the input field back after a short delay.
@@ -3555,6 +3548,22 @@ stationInput.addEventListener('keyup', async function (event) {
           stationInput.value = '';
         }, 750);
       }
+    } else {
+      // Let the user know this has been found before...
+      document.getElementById('subwayIcon').classList.add('is-hidden');
+      document.getElementById('alreadyGotItIcon').classList.remove('is-hidden');
+      document.getElementById('inputHelp').classList.add('is-hidden');
+      document.getElementById('alreadyFoundIt').classList.remove('is-hidden');
+
+      // Put the input field back after a short delay...
+      setTimeout(() => {
+        document.getElementById('alreadyGotItIcon').classList.add('is-hidden');
+        document.getElementById('subwayIcon').classList.remove('is-hidden');
+        document.getElementById('alreadyFoundIt').classList.add('is-hidden');
+        document.getElementById('inputHelp').classList.remove('is-hidden');
+        document.getElementById('stationControl').classList.remove('is-loading');
+        stationInput.value = '';
+      }, 750);
     }
   }
 });
