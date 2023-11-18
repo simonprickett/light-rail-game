@@ -14,7 +14,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.ejs',
       templateParameters: {
-
+        title: 'Nottingham Tram Station Guessing Game',
+        description: 'There are 50 stations on the Nottingham tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.',
+        url: 'https://tramgame.simonprickett.dev',
+        inputHelpText: 'Enter the name of a Nottingham Tram station.',
+        alreadyFoundText: 'You\'ve already found this station!',
+        progressText: '0 stations (0.0%) 0 guesses',
+        gitHubUrl: 'https://github.com/simonprickett/nottingham-tram-game',
+        gotThemAllText: 'Congratulations! You got them all!',
+        gotThemAllImageAltText: 'A tram at the Wilford Lane stop.',
+        gotThemAllImageCreditText: 'Image by kind permission of <a href="https://www.instagram.com/nottstransport/">Notts Transport on Instagram</a>.'
       }
     }),
     new CopyPlugin({
