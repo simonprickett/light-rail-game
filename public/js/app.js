@@ -1,10 +1,9 @@
 async function runGame() {
-  const myMap = L.map('mapid').setView([52.962289, -1.173134], 12);
-  const stationInput = document.getElementById('stationInput');
-  const stationsFound = {};
-
-  let maxStations = 0;
-  let numGuesses = 0;
+  async function loadConfig() {
+    const configFile = await fetch('/data/config.json');
+    const configData = await configFile.json();
+    return configData;
+  }
 
   async function loadStations() {
     const stationFile = await fetch('/data/stations.json');
@@ -33,11 +32,23 @@ async function runGame() {
       );
     }
   }
+  
+  // Load the config, track segments and anonymous station data.
+  const config = await loadConfig();
+  const trackSegments = await loadTrackSegments();
+  const stations = await loadStations();
+  const stationsFound = {};
+
+  let maxStations = stations.length;
+  let numGuesses = 0;
+  
+  const myMap = L.map('mapid').setView([config.map.startPos.latitude, config.map.startPos.longitude], config.map.startPos.zoom);
+  const stationInput = document.getElementById('stationInput');
 
   L.tileLayer(
-    'https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png',
+    `https://tiles.stadiamaps.com/tiles/${config.map.tileLayer}/{z}/{x}/{y}{r}.png`,
     {
-      maxZoom: 19,
+      maxZoom: config.map.maxZoom,
       attribution: `
       &copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>
       &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a>
@@ -45,12 +56,6 @@ async function runGame() {
       &copy; <a href="https://www.openstreetmap.org/about/" target="_blank">OpenStreetMap contributors</a>`
     }
   ).addTo(myMap);
-
-  // Load the track segments and anonymous station data.
-  const trackSegments = await loadTrackSegments();
-  const stations = await loadStations();
-
-  maxStations = stations.length;
 
   // Initialise the found stations header.
   updateProgress();
@@ -106,10 +111,10 @@ async function runGame() {
           myMap.removeLayer(station.marker);
 
           station.marker = L.circleMarker({ lat: station.latitude, lng: station.longitude }, {
-            radius: 5,
-            color: '#00d1b2',
+            radius: config.station.radius,
+            color: config.station.colors.found,
             fill: true,
-            fillColor: '#00d1b2',
+            fillColor: config.station.colors.found,
             fillOpacity: 1
           });
 
@@ -124,9 +129,9 @@ async function runGame() {
           document.getElementById('rightGuessIcon').classList.remove('is-hidden');
 
           // Show where the station is on the map.
-          myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, {
+          myMap.setView({ lat: station.latitude, lng: station.longitude }, config.station.zoom.level, { 
             animate: true,
-            duration: 0.5
+            duration: config.station.zoom.duration
           });
 
           // Add the station to the list of found stations.
@@ -144,9 +149,9 @@ async function runGame() {
           // Add listener to focus the map on this station when it is clicked in 
           // the list.
           newFoundStation.addEventListener('click', (e) => {
-            myMap.setView({ lat: station.latitude, lng: station.longitude }, 14, {
+            myMap.setView({ lat: station.latitude, lng: station.longitude }, config.station.zoom.level, { 
               animate: true,
-              duration: 0.5
+              duration: config.station.zoom.duration
             });
           });
 
@@ -192,8 +197,8 @@ async function runGame() {
     }
 
     const segmentLine = L.polyline(latLngs, {
-      color: '#0000ff',
-      weight: 6
+      color: config.track.color,
+      weight: config.track.weight
     });
 
     segmentLine.addTo(myMap);
@@ -202,8 +207,8 @@ async function runGame() {
   // Draw the station markers.
   for (const station of stations) {
     const marker = L.circleMarker({ lat: station.latitude, lng: station.longitude }, {
-      radius: 5,
-      color: '#ff0000'
+      radius: config.station.radius,
+      color: config.station.colors.notFound
     });
 
     marker.stationId = station.id;
