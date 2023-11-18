@@ -7,20 +7,20 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@simon_prickett">
   <meta name="twitter:creator" content="@simon_prickett">
-  <meta name="twitter:title" content="Nottingham Tram Station Guessing Game">
-  <meta name="twitter:description" content="There are 50 stations on the Nottingham tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.">
-  <meta name="twitter:image" content="https://nottingham-tram-game.pages.dev/images/twittercard.png">
+  <meta name="twitter:title" content="<%= title %>">
+  <meta name="twitter:description" content="<%= description %>">
+  <meta name="twitter:image" content="<%= url %>/images/twittercard.png">
   <meta name="og:locale" content="en_GB">
-  <meta name="og:image" content="https://nottingham-tram-game.pages.dev/images/twittercard.png">
+  <meta name="og:image" content="<%= url %>/images/twittercard.png">
   <meta name="og:image:type" content="img/x-png">
   <meta name="og:image:width" content="800">
   <meta name="og:image:height" content="468">
-  <meta name="og:title" content="Nottingham Tram Station Guessing Game">
+  <meta name="og:title" content="<%= title %>">
   <meta name="og:type" content="website">
-  <meta name="og:description" content="There are 50 stations on the Nottingham tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.">
-  <meta name="og:url" content="https://nottingham-tram-game.pages.dev/">
-  <meta name="description" content="There are 50 stations on the Nottingham tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.">
-  <title>Nottingham Tram Station Guessing Game</title>
+  <meta name="og:description" content="<%= description %>">
+  <meta name="og:url" content="<%= url %>">
+  <meta name="description" content="<%= description %>">
+  <title><%= title %></title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -37,7 +37,7 @@
           <div class="box">
             <div class="field">
               <div id="stationControl" class="control has-icons-left">
-                <input class="input is-focused" type="text" id="stationInput" placeholder="Station..." autocomplete="off" autofocus>
+                <input class="input is-focused" type="text" id="stationInput" placeholder="<%= inputPlaceHolderText %>" autocomplete="off" autofocus>
                 <span class="icon is-left" id="subwayIcon">
                   <i class="fas fa-subway"></i>
                 </span>
@@ -51,14 +51,14 @@
                   <i class="fas fa-exclamation-triangle"></i>
                 </span>
               </div>
-              <p id="inputHelp" class="help">Enter the name of a Nottingham Tram station.</p>
-              <p id="alreadyFoundIt" class="help is-hidden">You've already found this station!</p>
+              <p id="inputHelp" class="help"><%= inputHelpText %></p>
+              <p id="alreadyFoundIt" class="help is-hidden"><%= alreadyFoundText %></p>
             </div>
           </div>
           <div class="box" id="foundStationsBox">
             <article class="panel is-primary" id="foundStationsPanel">
               <p id="progressOverview" class="panel-heading">
-                0 stations (0.0%) 0 guesses
+                <%= progressText %>>
               </p>
               <div id="foundStationsList">
               </div>
@@ -74,9 +74,9 @@
   <footer class="footer has-background-white">
     <div class="content has-text-centered">
       <p>
-        <strong>Nottingham Tram Station Guessing Game</strong> by <a href="https://simonprickett.dev">Simon Prickett</a>. An example
+        <strong><%= title %></strong> by <a href="<%= url %>">Simon Prickett</a>. An example
         application using <a href="https://pages.cloudflare.com/">Cloudflare Pages and Workers</a> and <a
-          href="https://bulma.io/">Bulma</a>.  <a href="https://github.com/simonprickett/nottingham-tram-game">Source code is available on
+          href="https://bulma.io/">Bulma</a>.  <a href="<%= gitHubUrl %>">Source code is available on
             GitHub</a>.  
       </p>
     </div>
@@ -85,14 +85,14 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Congratulations! You got them all!</p>
+        <p class="modal-card-title"><%= gotThemAllText %></p>
         <button id="close-guessed-all" class="delete" aria-label="close"></button>
       </header>
       <div class="modal-card-body">
         <p class="image is-4by3">
-          <img src="/images/success.jpg" alt="A tram at the Wilford Lane stop.">
+          <img src="/images/success.jpg" alt="<%= gotThemAllImageAltText %>">
         </p>
-        <p>Image by kind permission of <a href="https://www.instagram.com/nottstransport/">Notts Transport on Instagram</a>.</p>
+        <p><%= gotThemAllImageCreditText %></p>
       </div>
     </div>
   </div>
