@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
@@ -10,9 +11,12 @@ module.exports = {
   },
   target: [ 'web' ],
   plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.ejs'
+    }),
     new CopyPlugin({
       patterns: [
-        { context: './src/', from: 'index.html', to: 'index.html' },
+//        { context: './src/', from: 'index.html', to: 'index.html' },
         { context: './src/', from: 'js/fontawesome.js', to: 'js/' },
         { context: './src/', from: 'css', to: 'css' },
         { context: './src/', from: 'images', to: 'images' },
