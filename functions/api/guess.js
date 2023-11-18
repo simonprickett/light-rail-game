@@ -517,7 +517,9 @@ const stations = [
       "market square",
       "market sq",
       "slab square",
-      "slab sq"
+      "slab sq",
+      "mkt square",
+      "mkt sq"
     ]
   },
   {
