@@ -1,0 +1,14 @@
+{
+    "title": "Nottingham Tram Station Guessing Game",
+    "description": "There are 50 stations on the Nottingham tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+    "url": "https://tramgame.simonprickett.dev",
+    "locale": "en_GB",
+    "inputPlaceholderText": "Station...",
+    "inputHelpText": "Enter the name of a Nottingham Tram station.",
+    "alreadyFoundItText": "You've already found this station!",
+    "gitHubUrl": "https://github.com/simonprickett/nottingham-tram-game",
+    "congratulationsText": "Congratulations! You got them all!",
+    "successImage": "tram_at_wilford_lane.jpg",
+    "successImageAlt": "A tram at the Wilford Lane stop.",
+    "successImageDescription": "Image by kind permission of <a href=\"https://www.instagram.com/nottstransport/\">Notts Transport on Instagram</a>."
+}

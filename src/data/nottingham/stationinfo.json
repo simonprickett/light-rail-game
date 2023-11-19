@@ -1,0 +1,653 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Phoenix Park",
+            "description": "This stop is at the end of the single-track branch from Highbury Vale. The stop is a Park &amp; Ride site, with trams taking over from buses on a well-established operation.",
+            "spellings": [
+                "phoenix park",
+                "phoenix pk",
+                "pheonix park",
+                "pheonix pk"
+            ],
+            "latitude": 52.98885196854974,
+            "longitude": -1.206747252897746
+        },
+        {
+            "id": 2,
+            "name": "Cinderhill",
+            "description": "Cinderhill is the only intermediate stop on the single-track branch to Phoenix Park. There is only one platform face here, with no passing loop.",
+            "spellings": [
+                "cinderhill",
+                "cinder hill"
+            ],
+            "latitude": 52.988994054015166,
+            "longitude": -1.2005513502816694
+        },
+        {
+            "id": 3,
+            "name": "Highbury Vale",
+            "description": "Highbury Vale is on the section of reserved track which parallels the railway line to the terminus at Hucknall. There are two separate island platforms here a short distance apart: 'Mainline' for trams to and from Hucknall; and 'Branch' for trams using the single track section to Phoenix Park.",
+            "spellings": [
+                "highbury vale"
+            ],
+            "latitude": 52.989670346353,
+            "longitude": -1.189563786604
+        },
+        {
+            "id": 4,
+            "name": "Queen's Walk",
+            "description": "This stop is on the section of reserved track which runs along Queen's Walk. It is at the junction with Kirkewhite Walk, which leads to The Meadows' main shopping area.",
+            "spellings": [
+                "queen's walk",
+                "queen's wlk",
+                "queens walk",
+                "queens wlk"
+            ],
+            "latitude": 52.94279004909993,
+            "longitude": -1.150345763628964
+        },
+        {
+            "id": 5,
+            "name": "Meadows Embankment",
+            "description": "This stop is between the Trent crossing at Wilford Toll Bridge and the stretch of reserved track along Queen's Walk. The site is next to the Trent at the end of Victoria Embankment, which leads to Trent Bridge alongside a large park.",
+            "spellings": [
+                "meadows embankment",
+                "meadow's embankment",
+                "the embankment",
+                "embankment"
+            ],
+            "latitude": 52.939033531505984,
+            "longitude": -1.1537173002473726
+        },
+        {
+            "id": 6,
+            "name": "Wilford Village",
+            "description": "This stop is between the Trent crossing at Wilford Toll Bridge and the stretch of reserved track along the former Great Central Railway alignment.",
+            "spellings": [
+                "wilford village"
+            ],
+            "latitude": 52.93550947930177,
+            "longitude": -1.155852338551466
+        },
+        {
+            "id": 7,
+            "name": "Wilford Lane",
+            "description": "This stop is on the stretch of line which uses the former Great Central Railway formation. It is located in the south side of Wilford Lane, where there is a level crossing. On the north side of the road is a maintenance siding.",
+            "spellings": [
+                "wilford lane",
+                "wilford ln",
+                "wilford la"
+            ],
+            "latitude": 52.925899321085375,
+            "longitude": -1.1561634747867255
+        },
+        {
+            "id": 8,
+            "name": "Compton Acres",
+            "description": "This stop is on the stretch of line which uses the former Great Central Railway formation. It is located in the north side of a footpath which crosses the line running between Ascott Gardens and playing fields on Ruddington Lane.",
+            "spellings": [
+                "compton acres"
+            ],
+            "latitude": 52.91904285721739,
+            "longitude": -1.1575260369204587
+        },
+        {
+            "id": 9,
+            "name": "Ruddington Lane",
+            "description": "This stop is at the southern end of the stretch of reserved track on the former Great Central Railway alignment through Wilford and Compton Acres, where the trackbed crosses Ruddington Lane.",
+            "spellings": [
+                "ruddington lane",
+                "ruddington ln",
+                "ruddington la"
+            ],
+            "latitude": 52.9148184762586,
+            "longitude": -1.158309241926492
+        },
+        {
+            "id": 10,
+            "name": "Southchurch Drive North",
+            "description": "This stop in the Clifton estate is near the junction of Southchurch Drive and Farnborough Drive at the north of the estate. It is close to a parade of shops, a community centre and a youth club.",
+            "spellings": [
+                "southchurch drive",
+                "southchurch dr",
+                "south church drive",
+                "south church dr",
+                "southchurch drive north",
+                "southchurch drive n",
+                "south church drive north",
+                "south church drive n",
+                "southchurch dr n",
+                "south church dr n"
+            ],
+            "latitude": 52.91077484665436,
+            "longitude": -1.170322855700205
+        },
+        {
+            "id": 11,
+            "name": "Rivergreen",
+            "description": "This stop in the Clifton estate is near the junction of Southchurch Drive and Rivergreen, outside the Rivergreen Medical Centre.",
+            "spellings": [
+                "rivergreen",
+                "river green"
+            ],
+            "latitude": 52.906931431182166,
+            "longitude": -1.174743136008106
+        },
+        {
+            "id": 12,
+            "name": "Clifton Centre",
+            "description": "This stop in the Clifton estate is near to the junction of Southchurch Drive and Green Lane, next to the main shopping area.",
+            "spellings": [
+                "clifton centre",
+                "clifton ctr",
+                "clifton center"
+            ],
+            "latitude": 52.90365067044881,
+            "longitude": -1.1769961915048608
+        },
+        {
+            "id": 13,
+            "name": "Holy Trinity",
+            "description": "This stop in the Clifton estate is at the junction of Farnborough Road and Southchurch Drive, next to a shopping parade and the church of the same name. The stop is on a short section of reserved track.",
+            "spellings": [
+                "holy trinity"
+            ],
+            "latitude": 52.897062515024146,
+            "longitude": -1.1811509331293035
+        },
+        {
+            "id": 14,
+            "name": "Summerwood Lane",
+            "description": "This stop in the Clifton estate is on Farnborough Road, shortly after the road junction at Nottingham Road/Clifton Lane.",
+            "spellings": [
+                "summerwood lane",
+                "summer wood lane",
+                "summerwood ln",
+                "summer wood ln",
+                "summerwood la",
+                "summer wood la"
+            ],
+            "latitude": 52.896973441865946,
+            "longitude": -1.188238401991894
+        },
+        {
+            "id": 15,
+            "name": "Clifton South",
+            "description": "Clifton Park and Ride is the country terminus for Line Two. It was built on a greenfield site, next to Nottingham Road/Clifton Lane. There is also road access to and from the A453 which leads to East Midlands Airport and Junction 24 of the M1.",
+            "spellings": [
+                "clifton south",
+                "clifton sth",
+                "clifton s"
+            ],
+            "latitude": 52.89619855429791,
+            "longitude": -1.1935349599555272
+        },
+        {
+            "id": 16,
+            "name": "Hucknall",
+            "description": "Hucknall is the northern terminus of the line from the city. The stop is next to the Robin Hood Line station&mdash;trains run from here to Bulwelll and Nottingham in the south and to Mansfield and Worksop in the north.",
+            "spellings": [
+                "hucknall"
+            ],
+            "latitude": 53.03822756271869,
+            "longitude": -1.1958199337384774
+        },
+        {
+            "id": 17,
+            "name": "Butler's Hill",
+            "description": "Butler's Hill is on the single track section between Bulwell and Hucknall. There is a passing loop here.",
+            "spellings": [
+                "butler's hill",
+                "butlers hill"
+            ],
+            "latitude": 53.02879347477343,
+            "longitude": -1.1885431009257308
+        },
+        {
+            "id": 18,
+            "name": "Moor Bridge",
+            "description": "Moor Bridge is on the single track section between Bulwell and Hucknall. There is a passing loop here. This is close to Nottingham's city boundary, which is historically the terminus of Nottingham City Transport bus services. NCT bus services have been cut back slightly with the opening of the tram stop.",
+            "spellings": [
+                "moor bridge",
+                "moor brg",
+                "moor br"
+            ],
+            "latitude": 53.014456937203896,
+            "longitude": -1.1870491105546808
+        },
+        {
+            "id": 19,
+            "name": "Bulwell Forest",
+            "description": "Bulwell Forest is on the single track section between Bulwell and Hucknall. There is a passing loop here.",
+            "spellings": [
+                "bulwell forest",
+                "bullwell forest"
+            ],
+            "latitude": 53.005895659415714,
+            "longitude": -1.190289218935741
+        },
+        {
+            "id": 20,
+            "name": "Bulwell",
+            "description": "Bulwell is a Park &amp; Ride stop. It is built adjacent to the Robin Hood Line station.",
+            "spellings": [
+                "bulwell",
+                "bullwell"
+            ],
+            "latitude": 52.99922297924357,
+            "longitude": -1.1956053570245009
+        },
+        {
+            "id": 21,
+            "name": "Meadows Way West",
+            "description": "This stop is on Meadows Way, serving The Meadows estate.",
+            "spellings": [
+                "meadows way west",
+                "meadow's way west",
+                "meadows way w",
+                "meadow's way w",
+                "meadows way",
+                "meadow's way"
+            ],
+            "latitude": 52.94353523508301,
+            "longitude": -1.1557230560812897
+        },
+        {
+            "id": 22,
+            "name": "NG2",
+            "description": "This stop serves the business and retail development off Queen's Drive, on the site of the Royal Ordnance Factory.",
+            "spellings": [
+                "ng2",
+                "ng 2"
+            ],
+            "latitude": 52.94183680706651,
+            "longitude": -1.1653857137324892
+        },
+        {
+            "id": 23,
+            "name": "Gregory Street",
+            "description": "This stop is on a section of shared street running between the Lenton Lane railway bridge and Abbey Street.",
+            "spellings": [
+                "gregory street",
+                "gregory st",
+                "gregory str"
+            ],
+            "latitude": 52.943863279938675,
+            "longitude": -1.1767172417767164
+        },
+        {
+            "id": 24,
+            "name": "Queen's Medical Centre",
+            "description": "This stop serves the University of Nottingham Medical School, better known as Queen's Medical Centre. The stop is above ground, on the southern side of the site.",
+            "spellings": [
+                "queen's medical centre",
+                "queen's medical center",
+                "queens medical centre",
+                "queens medical center",
+                "queen's medical ctr",
+                "queens medical ctr",
+                "queens medical",
+                "queens",
+                "queen's",
+                "qmc",
+                "medical school"
+            ],
+            "latitude": 52.94254832604121,
+            "longitude": -1.1836856205631214
+        },
+        {
+            "id": 25,
+            "name": "University of Nottingham",
+            "description": "This stop serves the University Park campus of the University of Nottingham.  Alight here for Highfields Park too.",
+            "spellings": [
+                "university of nottingham",
+                "nottingham university",
+                "nottm university",
+                "university of nottm",
+                "the university of nottingham",
+                "the university of nottm"
+            ],
+            "latitude": 52.937277764946664,
+            "longitude": -1.1882185536459102
+        },
+        {
+            "id": 26,
+            "name": "University Boulevard",
+            "description": "This stop is at the western end of the reserved track section running alongside the dual carriageway A6005 University Boulevard.",
+            "spellings": [
+                "university boulevard",
+                "university blvd"
+            ],
+            "latitude": 52.932198548625486,
+            "longitude": -1.2017395688353592
+        },
+        {
+            "id": 27,
+            "name": "Middle Street",
+            "description": "This stop is on the street-running section through Beeston.",
+            "spellings": [
+                "middle street",
+                "middle str",
+                "middle st"
+            ],
+            "latitude": 52.92785580149485,
+            "longitude": -1.209080774662305
+        },
+        {
+            "id": 28,
+            "name": "Beeston Centre",
+            "description": "This stop is in the pedestrianised area of the main shopping precinct.",
+            "spellings": [
+                "beeston centre",
+                "beeston center"
+            ],
+            "latitude": 52.92540751914861,
+            "longitude": -1.214831430596855
+        },
+        {
+            "id": 29,
+            "name": "Chilwell Road",
+            "description": "This stop is on the section of street running between Broxtowe College and Beeston.",
+            "spellings": [
+                "chilwell road",
+                "chilwell rd",
+                "chillwell road",
+                "chillwell rd",
+                "chil well road",
+                "chil well rd",
+                "chill well road",
+                "chill well rd"
+            ],
+            "latitude": 52.92265880696913,
+            "longitude": -1.2203943319066437
+        },
+        {
+            "id": 30,
+            "name": "High Road - Central College",
+            "description": "This stop is outside the front entrance of Castle College (formerly Broxtowe College) on High Road, Chilwell.",
+            "spellings": [
+                "high road - central college",
+                "high rd - central college",
+                "high road",
+                "high rd",
+                "central college",
+                "beeston high road",
+                "beeston high rd",
+                "beeston college",
+                "beeston central college"
+            ],
+            "latitude": 52.921239065209,
+            "longitude": -1.223344761723886
+        },
+        {
+            "id": 31,
+            "name": "Cator Lane",
+            "description": "This stop in Chilwell is close to the Cator Lane Recreation Ground.",
+            "spellings": [
+                "cator lane",
+                "cator ln",
+                "cator la"
+            ],
+            "latitude": 52.92262969945599,
+            "longitude": -1.231136578650164
+        },
+        {
+            "id": 32,
+            "name": "Bramcote Lane",
+            "description": "This Chilwell stop is where the line crosses Bramcote Lane, opposite Sandby Court.",
+            "spellings": [
+                "bramcote lane",
+                "bramcote ln",
+                "bramcoat lane",
+                "bramcoat ln",
+                "bramcote la",
+                "bramcoat la"
+            ],
+            "latitude": 52.9215235994507,
+            "longitude": -1.2362837375766855
+        },
+        {
+            "id": 33,
+            "name": "Eskdale Drive",
+            "description": "This Chilwell stop is at the eastern end of Eskdale Drive, next to Alderman Pounder school.",
+            "spellings": [
+                "eskdale drive",
+                "eskdale dr"
+            ],
+            "latitude": 52.92034631577148,
+            "longitude": -1.2429356157099627
+        },
+        {
+            "id": 34,
+            "name": "Inham Road",
+            "description": "This stop in Chilwell is on the section of reserved track between Broxtowe College and Toton Lane Park and Ride. It is next to Eskdale Drive, by the junction with Inham Road.",
+            "spellings": [
+                "inham road",
+                "inham rd",
+                "innham road",
+                "innham rd"
+            ],
+            "latitude": 52.91953125447315,
+            "longitude": -1.2518512781757
+        },
+        {
+            "id": 35,
+            "name": "Toton Lane",
+            "description": "This Park and Ride operation was built on a greenfield site on the B6003 Toton Lane, with 1,400 spaces. From here the line crosses open fields to Inham Road.",
+            "spellings": [
+                "toton lane",
+                "toton ln",
+                "toton la"
+            ],
+            "latitude": 52.91843801324574,
+            "longitude": -1.2621080451037914
+        },
+        {
+            "id": 36,
+            "name": "David Lane",
+            "description": "David Lane is on the section of reserved track which parallels the railway line to the terminus at Hucknall.",
+            "spellings": [
+                "david lane",
+                "david ln",
+                "david la"
+            ],
+            "latitude": 52.98486046767809,
+            "longitude": -1.182033379865476
+        },
+        {
+            "id": 37,
+            "name": "Basford",
+            "description": "Basford is the first stop on the section of reserved track which parallels the railway line to the terminus at Hucknall.",
+            "spellings": [
+                "basford",
+                "bassford",
+                "baseford"
+            ],
+            "latitude": 52.98160499002741,
+            "longitude": -1.1783051094601311
+        },
+        {
+            "id": 38,
+            "name": "Wilkinson Street",
+            "description": "The depot is next to the Park &amp; Ride site at Wilkinson Street, on part of a former gasworks site. There are double-track connections to both the city- and country-bound tracks. All vehicle maintenance is carried out here, and trams are stabled here overnight. The depot also contains NET's offices, staff facilities and control room.",
+            "spellings": [
+                "wilkinson street",
+                "wilkinson st",
+                "wilkinson str"
+            ],
+            "latitude": 52.97200830087293,
+            "longitude": -1.178240736445932
+        },
+        {
+            "id": 39,
+            "name": "Shipstone Street",
+            "description": "Shipstone Street stop is on the Hyson Green loop. Trams stop at the single platform here towards Hucknall and Phoenix Park. This stop is close to the former Shipstones Brewery.",
+            "spellings": [
+                "shipstone street",
+                "shipstone st",
+                "shipstone str",
+                "ship stone street",
+                "ship stone st",
+                "ship stone str",
+                "shipston street",
+                "shipston st",
+                "shipston str"
+            ],
+            "latitude": 52.97152211096274,
+            "longitude": -1.173544054508408
+        },
+        {
+            "id": 40,
+            "name": "Beaconsfield Street",
+            "description": "Beaconsfield Street stop is on the Hyson Green loop. Trams stop at the single platform here towards Phoenix Park and Hucknall.",
+            "spellings": [
+                "beaconsfield street",
+                "beaconsfield st",
+                "beaconsfield str",
+                "beacons field street",
+                "beacons field st",
+                "beacons field str"
+            ],
+            "latitude": 52.970121160065,
+            "longitude": -1.1704228106813
+        },
+        {
+            "id": 41,
+            "name": "Noel Street",
+            "description": "Noel Street stop is on the Hyson Green loop. Trams stop at the single platform here towards Phoenix Park and Hucknall.",
+            "spellings": [
+                "noel street",
+                "noel st",
+                "noel str"
+            ],
+            "latitude": 52.967322320177,
+            "longitude": -1.168689631593
+        },
+        {
+            "id": 42,
+            "name": "Radford Road",
+            "description": "Radford Road stop is on the Hyson Green loop. Trams stop at the single platform here towards the city.",
+            "spellings": [
+                "radford road",
+                "radford rd"
+            ],
+            "latitude": 52.970148102787,
+            "longitude": -1.1742938361088
+        },
+        {
+            "id": 43,
+            "name": "Hyson Green Market",
+            "description": "This stop is on the Hyson Green loop. Trams stop at the single platform here towards the city.",
+            "spellings": [
+                "hyson green market",
+                "hyson green mkt",
+                "hyson green"
+            ],
+            "latitude": 52.966349201354,
+            "longitude": -1.1709416811356
+        },
+        {
+            "id": 44,
+            "name": "The Forest",
+            "description": "The Forest is the largest of the Park &amp; Ride sites, where trams replaced buses in a long-established operation. The stop has three platforms. The centre track is connected to both running lines in both directions, and can be used to turn back short workings. This will be useful on busy Park &amp; Ride days, for instance in the run-up to Christmas, and for when the city's annual Goose Fair is held on the adjoining open space.",
+            "spellings": [
+                "the forest",
+                "forest rec",
+                "forest recreation",
+                "forest recreation ground"
+            ],
+            "latitude": 52.96524355887,
+            "longitude": -1.1670917242727
+        },
+        {
+            "id": 45,
+            "name": "High School",
+            "description": "Just as Nottingham Trent University has its own tram stop, so does Nottingham High School. The tram lines here share the road with other traffic.",
+            "spellings": [
+                "high school",
+                "high sch",
+                "nottingham high school",
+                "nottingham high sch",
+                "nottingham high"
+            ],
+            "latitude": 52.962330315939624,
+            "longitude": -1.1614796128754852
+        },
+        {
+            "id": 46,
+            "name": "Nottingham Trent University",
+            "description": "Nottingham Trent University stop is on Goldsmith Street, right in the heart of NTU's City Campus.",
+            "spellings": [
+                "nottingham trent university",
+                "nottingham trent",
+                "trent university",
+                "trent uni",
+                "ntu",
+                "ntu campus"
+            ],
+            "latitude": 52.95783871058926,
+            "longitude": -1.1548652856671606
+        },
+        {
+            "id": 47,
+            "name": "Royal Centre",
+            "description": "Royal Centre stop is off Theatre Square, next to the Theatre Royal, the Royal Concert Hall and, of course, the Royal Centre.",
+            "spellings": [
+                "royal centre",
+                "royal center",
+                "theatre royal",
+                "theater royal"
+            ],
+            "latitude": 52.955065961581674,
+            "longitude": -1.1518075674929928
+        },
+        {
+            "id": 48,
+            "name": "Old Market Square",
+            "description": "Old Market Square (known locally as 'Slab Square' in honour of its current covering of concrete paving slabs) is the most central stop. It is in a high profile position right in front of the Council House, and the Nottingham City Transport (NCT)/NET information centre is next to the northbound platform. It is also an important interchange point, with many NCT bus services leaving from stops around the square.",
+            "spellings": [
+                "old market square",
+                "old market sq",
+                "market square",
+                "market sq",
+                "slab square",
+                "slab sq",
+                "mkt square",
+                "mkt sq"
+            ],
+            "latitude": 52.9530622327645,
+            "longitude": -1.1500802249454742
+        },
+        {
+            "id": 49,
+            "name": "Lace Market",
+            "description": "Lace Market stop is between Weekday Cross, where the former Great Central Railway's line went from viaduct into a tunnel for the final section to Victoria station, and Hockley, the trendy/alternative quarter on the edge of Nottingham's city centre.",
+            "spellings": [
+                "lace market",
+                "lace mkt",
+                "the lace market",
+                "the lace mkt",
+                "hockley",
+                "hockly"
+            ],
+            "latitude": 52.95290063768557,
+            "longitude": -1.145477554430681
+        },
+        {
+            "id": 50,
+            "name": "Nottingham Station",
+            "description": "This stop on Station Street is the most substantial stop on the route, and the only one that could qualify as a station. It sits on part of the old Great Central Railway viaduct opposite Nottingham Midland station&mdash;before the closure of the Great Central, the viaduct continued over the Midland Railway's platforms. There are stairs and a lift to ground level, a waiting area with 'proper' seats and a footbridge which connects with the 'back entrance' to the railway station and its platform overbridge. Railway staff with portable ticket machines are now located here.",
+            "spellings": [
+                "nottingham station",
+                "nottingham stn",
+                "railway station",
+                "railway stn",
+                "train station",
+                "train stn"
+            ],
+            "latitude": 52.94717889398906,
+            "longitude": -1.1456038864710183
+        }
+    ]
+}
