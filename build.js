@@ -26,11 +26,20 @@ if (process.argv.length !== 3) {
 const city = process.argv[2];
 console.log(`Building for ${city}.`);
 
-// TODO check this city exists in the right places...
-// SOURCE_FOLDER_NAME/data/<city>
-// SOURCE_FOLDER_NAME/images/<city>
-// SOURCE_FOLDER_NAME/config/<city>
-// TODO console log that we checked.
+// Check if the city is set up... could check individual files here
+// to if needed, but this is probably a good enough sanity check.
+try {
+  await Promise.all([
+    fs.stat(`${SOURCE_FOLDER_NAME}/data/${city}`),
+    fs.stat(`${SOURCE_FOLDER_NAME}/images/${city}`),
+    fs.stat(`${SOURCE_FOLDER_NAME}/templates/${city}.json`)
+  ]);
+} catch(e) {
+  console.error(`Missing folder for ${city}.`);
+  process.exit(1);
+}
+
+console.log('City checks completed OK.');
 
 try {
   // Delete the previous output.
