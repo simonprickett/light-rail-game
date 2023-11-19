@@ -70,7 +70,7 @@ try {
 
   // Copy the city specific data files across.
   // SOURCE_FOLDER_NAME/data/<city>/* -> OUTPUT_FOLDER_NAME/data
-  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/*.*`, `${OUTPUT_FOLDER_NAME}/data`, 3);
+  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/*.json`, `${OUTPUT_FOLDER_NAME}/data`, 3);
   console.log(`Copied data files for ${city} to ${OUTPUT_FOLDER_NAME}/data.`);
 
   // Generate the index.html file from its template.
@@ -82,6 +82,10 @@ try {
   const htmlSrc = tpl(JSON.parse(tplValsStr));
   await fs.writeFile(`${OUTPUT_FOLDER_NAME}/index.html`, htmlSrc, { encoding: 'utf-8' });
   console.log(`Generated index.html template for ${city} in ${OUTPUT_FOLDER_NAME}.`);
+
+  // Create the server side stations file for this city.
+  // TODO need to generate this... and the front end JSON version.
+  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/stations.js`, `lib`, 3);
 
   console.log('Done.');
 } catch (e) {
