@@ -1,5 +1,6 @@
 import copyfiles from 'copyfiles';
 import { promises as fs } from 'fs';
+import Handlebars from 'handlebars';
 
 const SOURCE_FOLDER_NAME = 'src';
 const OUTPUT_FOLDER_NAME = 'dist';
@@ -59,10 +60,14 @@ try {
   await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/*.*`, `${OUTPUT_FOLDER_NAME}/data`, 3);
   console.log(`Copied data files for ${city} to ${OUTPUT_FOLDER_NAME}/data.`);
 
-  // TODO templating of the index file.
-  // Temporary.. just copy it across
-  await copyFiles(`${SOURCE_FOLDER_NAME}/html/index.html`, `${OUTPUT_FOLDER_NAME}`, 2);
-  console.log('Temporary: Copied index.html into place.');
+  // Generate the index.html file from its template.
+  const tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/html/index.handlebars`, { encoding: 'utf-8' });
+  const tpl = Handlebars.compile(tplSrc);
+  const htmlSrc = tpl({
+    hello: 'world'
+  });
+  await fs.writeFile(`${OUTPUT_FOLDER_NAME}/index.html`, htmlSrc, { encoding: 'utf-8' });
+  console.log(`Generated index.html template for ${city} in ${OUTPUT_FOLDER_NAME}.`);
 
   console.log('Done.');
 } catch (e) {
