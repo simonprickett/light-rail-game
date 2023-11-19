@@ -1,0 +1,14 @@
+export default [
+  {{#each stations}}
+  {
+    "id": {{id}},
+    "name": "{{name}}",
+    "description": "{{description}}",
+    "spellings": [
+      {{#each spellings}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+      {{/each}}
+    ]
+  }{{#unless @last}},{{/unless}}
+  {{/each}}
+];

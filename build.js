@@ -4,6 +4,7 @@ import Handlebars from 'handlebars';
 
 const SOURCE_FOLDER_NAME = 'src';
 const OUTPUT_FOLDER_NAME = 'dist';
+const LIB_FOLDER_NAME = 'lib';
 
 async function copyFiles(srcPath, destPath, up) {
   return new Promise((resolve, reject) => {
@@ -49,9 +50,11 @@ try {
   });
   console.log(`Deleted ${OUTPUT_FOLDER_NAME}.`);
 
-  // Create new folder.
-  await fs.mkdir(OUTPUT_FOLDER_NAME);
-  console.log(`Created ${OUTPUT_FOLDER_NAME}.`);
+  await fs.rm(LIB_FOLDER_NAME, {
+    recursive: true,
+    force: true
+  });
+  console.log(`Deleted ${LIB_FOLDER_NAME}.`);
 
   // Copy the CSS files across.
   // SOURCE_FOLDER_NAME/css/* -> OUTPUT_FOLDER_NAME/css
@@ -70,22 +73,54 @@ try {
 
   // Copy the city specific data files across.
   // SOURCE_FOLDER_NAME/data/<city>/* -> OUTPUT_FOLDER_NAME/data
-  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/*.json`, `${OUTPUT_FOLDER_NAME}/data`, 3);
+  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/config.json`, `${OUTPUT_FOLDER_NAME}/data`, 3);
+  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/tracksegments.json`, `${OUTPUT_FOLDER_NAME}/data`, 3);
   console.log(`Copied data files for ${city} to ${OUTPUT_FOLDER_NAME}/data.`);
 
   // Generate the index.html file from its template.
-  const tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/index.handlebars`, { encoding: 'utf-8' });
-  const tpl = Handlebars.compile(tplSrc);
+  let tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/index.handlebars`, { encoding: 'utf-8' });
+  let tpl = Handlebars.compile(tplSrc);
 
   // Load the template values for this city from SOURCE_FOLDER_NAME/templates/<city>.json
+  // TODO the above needs tidying up and putting in the data/nottingham folder as it doesn't belong here!
   const tplValsStr = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/${city}.json`);
   const htmlSrc = tpl(JSON.parse(tplValsStr));
   await fs.writeFile(`${OUTPUT_FOLDER_NAME}/index.html`, htmlSrc, { encoding: 'utf-8' });
-  console.log(`Generated index.html template for ${city} in ${OUTPUT_FOLDER_NAME}.`);
+  console.log(`Generated ${OUTPUT_FOLDER_NAME}/index.html.`);
 
-  // Create the server side stations file for this city.
-  // TODO need to generate this... and the front end JSON version.
-  await copyFiles(`${SOURCE_FOLDER_NAME}/data/${city}/stations.js`, `lib`, 3);
+  // Create the server side stations file (lib/stations.js) for this city from data in:
+  // SOURCE_FOLDER_NAME/data/<city>/stationinfo.json
+  const stationInfoStr = await fs.readFile(`${SOURCE_FOLDER_NAME}/data/${city}/stationinfo.json`);
+  const stationInfo = JSON.parse(stationInfoStr);
+
+  // Load the template values for JS file that the function will read from.
+  tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/stations.handlebars`, { encoding: 'utf-8' });
+  tpl = Handlebars.compile(tplSrc);
+
+  // Now also create the version of this data that the front end needs as a JSON file.
+  const frontEndStationInfo = {
+    stations: []
+  };
+
+  for (const stn of stationInfo.stations) {
+    const { id, latitude, longitude } = stn;
+    frontEndStationInfo.stations.push({ id, latitude, longitude});
+  }
+
+  await fs.writeFile(
+    `${OUTPUT_FOLDER_NAME}/data/stations.json`, 
+    JSON.stringify(frontEndStationInfo), 
+    { encoding: 'utf-8' }
+  );
+  console.log(`Generated ${OUTPUT_FOLDER_NAME}/data/stations.json.`);
+
+  // Create lib folder.
+  await fs.mkdir(LIB_FOLDER_NAME);
+  console.log(`Created ${LIB_FOLDER_NAME}.`);
+  
+  const stationsJsSrc = tpl(stationInfo);
+  await fs.writeFile(`${LIB_FOLDER_NAME}/stations.js`, stationsJsSrc, { encoding: 'utf-8' });
+  console.log(`Generated ${LIB_FOLDER_NAME}/stations.js.`);
 
   console.log('Done.');
 } catch (e) {
