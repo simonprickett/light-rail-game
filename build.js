@@ -24,9 +24,13 @@ if (process.argv.length !== 3) {
 }
 
 const city = process.argv[2];
-// TODO check this city exists in the right places...
 console.log(`Building for ${city}.`);
 
+// TODO check this city exists in the right places...
+// SOURCE_FOLDER_NAME/data/<city>
+// SOURCE_FOLDER_NAME/images/<city>
+// SOURCE_FOLDER_NAME/config/<city>
+// TODO console log that we checked.
 
 try {
   // Delete the previous output.
@@ -61,11 +65,12 @@ try {
   console.log(`Copied data files for ${city} to ${OUTPUT_FOLDER_NAME}/data.`);
 
   // Generate the index.html file from its template.
-  const tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/html/index.handlebars`, { encoding: 'utf-8' });
+  const tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/index.handlebars`, { encoding: 'utf-8' });
   const tpl = Handlebars.compile(tplSrc);
-  const htmlSrc = tpl({
-    hello: 'world'
-  });
+
+  // Load the template values for this city from SOURCE_FOLDER_NAME/templates/<city>.json
+  const tplValsStr = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/${city}.json`);
+  const htmlSrc = tpl(JSON.parse(tplValsStr));
   await fs.writeFile(`${OUTPUT_FOLDER_NAME}/index.html`, htmlSrc, { encoding: 'utf-8' });
   console.log(`Generated index.html template for ${city} in ${OUTPUT_FOLDER_NAME}.`);
 
