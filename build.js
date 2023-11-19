@@ -32,8 +32,7 @@ console.log(`Building for ${city}.`);
 try {
   await Promise.all([
     fs.stat(`${SOURCE_FOLDER_NAME}/data/${city}`),
-    fs.stat(`${SOURCE_FOLDER_NAME}/images/${city}`),
-    fs.stat(`${SOURCE_FOLDER_NAME}/templates/${city}.json`)
+    fs.stat(`${SOURCE_FOLDER_NAME}/images/${city}`)
   ]);
 } catch(e) {
   console.error(`Missing folder for ${city}.`);
@@ -81,9 +80,8 @@ try {
   let tplSrc = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/index.handlebars`, { encoding: 'utf-8' });
   let tpl = Handlebars.compile(tplSrc);
 
-  // Load the template values for this city from SOURCE_FOLDER_NAME/templates/<city>.json
-  // TODO the above needs tidying up and putting in the data/nottingham folder as it doesn't belong here!
-  const tplValsStr = await fs.readFile(`${SOURCE_FOLDER_NAME}/templates/${city}.json`);
+  // Load the message catalog for this city from SOURCE_FOLDER_NAME/data/<city>/strings.json
+  const tplValsStr = await fs.readFile(`${SOURCE_FOLDER_NAME}/data/${city}/strings.json`);
   const htmlSrc = tpl(JSON.parse(tplValsStr));
   await fs.writeFile(`${OUTPUT_FOLDER_NAME}/index.html`, htmlSrc, { encoding: 'utf-8' });
   console.log(`Generated ${OUTPUT_FOLDER_NAME}/index.html.`);
