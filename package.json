@@ -9,7 +9,7 @@
     "wrangler": "^3.16.0"
   },
   "scripts": {
-    "build": "node build.js nottingham",
+    "build": "node build.js",
     "start": "wrangler pages dev dist"
   },
   "repository": {
