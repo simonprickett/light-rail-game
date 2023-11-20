@@ -65,12 +65,15 @@ async function runGame() {
     document.getElementById('wrongGuessIcon').classList.add('is-hidden');
     document.getElementById('subwayIcon').classList.remove('is-hidden');
     document.getElementById('stationControl').classList.remove('is-loading');
+    stationInput.removeAttribute('disabled');
+    stationInput.focus();
   });
 
   stationInput.addEventListener('keyup', async function (event) {
     if (event.key === 'Enter') {
       event.preventDefault();
       document.getElementById('stationControl').classList.add('is-loading');
+      stationInput.setAttribute('disabled', '');
 
       const guess = stationInput.value.trim().toLowerCase();
       let alreadyFound = false;
@@ -166,6 +169,8 @@ async function runGame() {
             document.getElementById('rightGuessIcon').classList.add('is-hidden');
             document.getElementById('stationControl').classList.remove('is-loading');
             stationInput.value = '';
+            stationInput.removeAttribute('disabled');
+            stationInput.focus();
           }, 750);
         }
       } else {
@@ -183,6 +188,8 @@ async function runGame() {
           document.getElementById('inputHelp').classList.remove('is-hidden');
           document.getElementById('stationControl').classList.remove('is-loading');
           stationInput.value = '';
+          stationInput.removeAttribute('disabled');
+          stationInput.focus();
         }, 750);
       }
     }
