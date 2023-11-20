@@ -617,7 +617,10 @@
                 "slab square",
                 "slab sq",
                 "mkt square",
-                "mkt sq"
+                "mkt sq",
+                "old mkt sq",
+                "old mkt square",
+                "the square"
             ],
             "latitude": 52.9530622327645,
             "longitude": -1.1500802249454742
