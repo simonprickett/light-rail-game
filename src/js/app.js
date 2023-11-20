@@ -99,7 +99,7 @@ async function runGame() {
         });
         const reply = await resp.json();
 
-        if (reply.stationId === 0) {
+        if (reply.id === 0) {
           // Bad guess, provide some animated feedback.
           document.getElementById('subwayIcon').classList.add('is-hidden');
           document.getElementById('wrongGuessIcon').classList.remove('is-hidden');
@@ -108,7 +108,7 @@ async function runGame() {
           updateProgress();
         } else {
           // First time finding it! Get the station info...
-          const station = stations.filter((s) => s.id === reply.stationId)[0];
+          const station = stations.filter((s) => s.id === reply.id)[0];
 
           // Update the marker...
           myMap.removeLayer(station.marker);
@@ -121,7 +121,7 @@ async function runGame() {
             fillOpacity: 1
           });
 
-          station.marker.bindPopup(`<b style="font-size:1.5em">${reply.stationName}</b><hr/><p>${reply.stationDescription}</p>`).openPopup();
+          station.marker.bindPopup(`<b style="font-size:1.5em">${reply.name}</b><hr/><p>${reply.description}</p>`).openPopup();
           station.marker.on('mouseover', function (e) {
             this.openPopup();
           });
@@ -146,7 +146,7 @@ async function runGame() {
           <span class="panel-icon">
             <i class="fas fa-subway" aria-hidden="true"></i>
           </span>
-          ${reply.stationName}
+          ${reply.name}
         `;
 
           // Add listener to focus the map on this station when it is clicked in 
@@ -160,7 +160,7 @@ async function runGame() {
 
           foundStationsList.prepend(newFoundStation);
           numGuesses += 1;
-          stationsFound[reply.stationId] = reply.stationSpellings;
+          stationsFound[reply.id] = reply.spellings;
           updateProgress();
 
           // Put the input field back after a short delay.
