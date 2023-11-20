@@ -1,7 +1,7 @@
 {
     "title": "Austin MetroRail Station Guessing Game",
     "description": "There are 9 stations on the Austin MetroRail system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
-    "url": "https://tramgame.simonprickett.dev",
+    "url": "https://austingame.simonprickett.dev",
     "locale": "en_US",
     "inputPlaceholderText": "Station...",
     "inputHelpText": "Enter the name of an Austin MetroRail station.",
