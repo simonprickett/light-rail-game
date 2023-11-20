@@ -3,9 +3,9 @@
         "tileLayer": "stamen_toner_background",
         "maxZoom": 19,
         "startPos": {
-            "latitude": 30.361082,
-            "longitude": -97.723308,
-            "zoom": 12
+            "latitude": 30.41847977190404,
+            "longitude": -97.75909423828126,
+            "zoom": 11
         }
     },
     "track": {
