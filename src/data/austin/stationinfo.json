@@ -1,0 +1,117 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Leander",
+            "description": "Leander is one of two stations located within Williamson County as opposed to Travis County which contains the other seven locations. Leander includes a park and ride with 600 spaces. Leander is only serviced by the Red Line during weekday rush hours and late Friday nights.",
+            "spellings": [
+                "leander",
+                "leeander"
+            ],
+            "latitude": 30.580921,
+            "longitude": -97.853653
+        },
+        {
+            "id": 2,
+            "name": "Lakeline",
+            "description": "Lakeline is co-located with the Lakeline Park and Ride and serves Lakeline Mall which is a mile away.  Lakeline serves as the midday and Saturday terminus for the MetroRail Red Line.",
+            "spellings": [
+                "lakeline",
+                "lake line"
+            ],
+            "latitude": 30.481058,
+            "longitude": -97.786781
+        },
+        {
+            "id": 3,
+            "name": "Howard",
+            "description": "Howard station is located in Northwest Austin at the corner of Howard Lane and MoPac Expressway. Howard includes a Park & Ride with 200 spaces.",
+            "spellings": [
+                "howard",
+                "howerd"
+            ],
+            "latitude": 30.44035,
+            "longitude": -97.700485
+        },
+
+        {
+            "id": 4,
+            "name": "Kramer",
+            "description": "This station is located in Northwest Austin near the corner of Kramer and Braker Lanes. At 1 mile walking distance, Kramer is the closest station to The Domain, a major high-density business, retail, and residential center.",
+            "spellings": [
+                "kramer"
+            ],
+            "latitude": 30.392469,
+            "longitude": -97.716339
+        },
+        {
+            "id": 5,
+            "name": "Crestview",
+            "description": "This station is at the edge of the Crestview neighborhood of North Austin, at the corner of Airport Boulevard and North Lamar Boulevard. The North Lamar Transit Center is one mile (1.6 km) north of the station, and the Highland Mall Transit Center (across from the Highland station) is 1⁄2 mile (0.8 km) to the southeast. There is no on-site parking at the Crestview station.",
+            "spellings": [
+                "crestview",
+                "crest view"
+            ],
+            "latitude": 30.338306,
+            "longitude": -97.718796
+        },
+        {
+            "id": 6,
+            "name": "Highland",
+            "description": "Highland station is located in northeast Austin at the intersection of Airport Boulevard and Highland Mall Boulevard, just northwest of the I-35/Highway 290 interchange directly across the street from Highland Mall. The station is within a 15-minute walking distance of the Austin Greyhound Terminal",
+            "spellings": [
+                "highland",
+                "high land"
+            ],
+            "latitude": 30.328232,
+            "longitude": -97.716385
+        },
+        {
+            "id": 7,
+            "name": "MLK Jr.",
+            "description": "This station was built with a musical theme in mind and is located in East Austin at the corner of Martin Luther King Jr. Boulevard and Alexander Avenue",
+            "spellings": [
+                "mlk",
+                "martin luther king",
+                "m.l.k.",
+                "mlk jr",
+                "m.l.k. jr",
+                "martin luther king jr",
+                "martin luthur king",
+                "martin luthur king jr",
+                "martin luther king junior",
+                "martin luthur king junior",
+                "mlk junior",
+                "m.l.k. junior"
+            ],
+            "latitude": 30.281635,
+            "longitude": -97.708733
+        },
+        {
+            "id": 8,
+            "name": "Plaza Saltillo",
+            "description": "Plaza Saltillo station is located in East Austin at the corner of Fifth and Comal Street adjacent to the Plaza Saltillo complex which, in turn, was built in 1998 as a result of a collaborative effort between the city of Austin, the city of Saltillo (a sister city of Austin), Capital Metro and Ole Mexico, an east Austin cultural group.",
+            "spellings": [
+                "plaza saltillo",
+                "plaza saltilo",
+                "saltillo",
+                "saltilo"
+            ],
+            "latitude": 30.262268,
+            "longitude": -97.727745
+        },
+        {
+            "id": 9,
+            "name": "Downtown",
+            "description": "Downtown station is located in Downtown Austin at the corner of Fourth and Neches Street behind the Austin Convention Center. It is the current southern terminus of the Red Line.",
+            "spellings": [
+                "downtown",
+                "down town",
+                "convention center",
+                "convention centre"
+            ],
+            "latitude": 30.265038,
+            "longitude": -97.73967
+        }
+    ]
+}

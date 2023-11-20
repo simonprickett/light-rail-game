@@ -1,0 +1,14 @@
+{
+    "title": "Austin MetroRail Station Guessing Game",
+    "description": "There are 9 stations on the Austin MetroRail system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+    "url": "https://tramgame.simonprickett.dev",
+    "locale": "en_GB",
+    "inputPlaceholderText": "Station...",
+    "inputHelpText": "Enter the name of an Austin MetroRail station.",
+    "alreadyFoundItText": "You've already found this station!",
+    "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
+    "congratulationsText": "Congratulations! You got them all!",
+    "successImage": "cap_metro_train.jpg",
+    "successImageAlt": "TODO",
+    "successImageDescription": "Image by Steven Polunsky on <a href=\"https://commons.wikimedia.org/wiki/File:Cap_Metro_train.jpg\">WikiMedia Commons</a>."
+}
