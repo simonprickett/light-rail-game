@@ -6,7 +6,7 @@
     "inputPlaceholderText": "Station...",
     "inputHelpText": "Enter the name of a Nottingham Tram station.",
     "alreadyFoundItText": "You've already found this station!",
-    "gitHubUrl": "https://github.com/simonprickett/nottingham-tram-game",
+    "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
     "congratulationsText": "Congratulations! You got them all!",
     "successImage": "tram_at_wilford_lane.jpg",
     "successImageAlt": "A tram at the Wilford Lane stop.",

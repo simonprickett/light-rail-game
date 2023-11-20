@@ -1,5 +1,5 @@
 {
-  "name": "nottingham-tram-game",
+  "name": "light-rail-game",
   "version": "0.0.1",
   "description": "Transport System Game",
   "main": "index.js",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonprickett/nottingham-tram-game.git"
+    "url": "git+https://github.com/simonprickett/light-rail-game.git"
   },
   "type": "module",
   "author": "Simon Prickett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simonprickett/nottingham-tram-game/issues"
+    "url": "https://github.com/simonprickett/light-rail-game/issues"
   },
-  "homepage": "https://github.com/simonprickett/nottingham-tram-game#readme"
+  "homepage": "https://github.com/simonprickett/light-rail-game#readme"
 }
