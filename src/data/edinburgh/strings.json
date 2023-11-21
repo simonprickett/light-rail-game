@@ -1,0 +1,14 @@
+{
+    "title": "Edinburgh Tram Station Guessing Game",
+    "description": "There are 23 stations on the Edinburgh Tram system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+    "url": "https://edtramgame.simonprickett.dev",
+    "locale": "en_GB",
+    "inputPlaceholderText": "Station...",
+    "inputHelpText": "Enter the name of an Edinburgh Tram station.",
+    "alreadyFoundItText": "You've already found this station!",
+    "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
+    "congratulationsText": "Congratulations! You got them all!",
+    "successImage": "tram_depot_edinburgh.jpg",
+    "successImageAlt": "Edinburgh trams at the depot.",
+    "successImageDescription": "Picture by <a href=\"https://en.wikipedia.org/wiki/Edinburgh_Trams#/media/File:Gogar_Tram_Depot,_Edinburgh.JPG\">Kim Traynor on Wikipedia</a>."
+}

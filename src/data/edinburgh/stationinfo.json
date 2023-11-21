@@ -1,0 +1,298 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Newhaven",
+            "description": "",
+            "spellings": [
+                "newhaven",
+                "new haven"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 2,
+            "name": "Ocean Terminal",
+            "description": "",
+            "spellings": [
+                "ocean terminal",
+                "ocean"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 3,
+            "name": "Port of Leith",
+            "description": "",
+            "spellings": [
+                "port of leith",
+                "port leith",
+                "leith port",
+                "leith"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 4,
+            "name": "The Shore",
+            "description": "",
+            "spellings": [
+                "the shore",
+                "shore"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 5,
+            "name": "Foot of the Walk",
+            "description": "",
+            "spellings": [
+                "foot of the walk",
+                "foot of walk",
+                "the walk foot",
+                "the walk"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 6,
+            "name": "Balfour Street",
+            "description": "",
+            "spellings": [
+                "balfour street",
+                "balfour st",
+                "balfur street",
+                "balfur st"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 7,
+            "name": "McDonald Road",
+            "description": "",
+            "spellings": [
+                "mcdonald road",
+                "mcdonald rd",
+                "mc donald road",
+                "mc donald rd",
+                "macdonald road",
+                "macdonald rd",
+                "mac donald road",
+                "mac donald rd"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 8,
+            "name": "Picardy Place",
+            "description": "",
+            "spellings": [
+                "picardy place",
+                "picardy pl"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 9,
+            "name": "St. Andrew Square",
+            "description": "",
+            "spellings": [
+                "st. andrew square",
+                "st andrew square",
+                "st. andrew sq",
+                "st andrew sq"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 10,
+            "name": "Princes Street",
+            "description": "",
+            "spellings": [
+                "princes street",
+                "princes st",
+                "prince's street",
+                "prince's st",
+                "princes' street",
+                "princes' st"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 11,
+            "name": "West End",
+            "description": "",
+            "spellings": [
+                "west end",
+                "westend",
+                "w end"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 12,
+            "name": "Haymarket",
+            "description": "",
+            "spellings": [
+                "haymarket",
+                "hay market",
+                "hay mkt"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 13,
+            "name": "Murrayfield Stadium",
+            "description": "",
+            "spellings": [
+                "murrayfield stadium",
+                "murray field stadium",
+                "murrayfield",
+                "murray field"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 14,
+            "name": "Balgreen",
+            "description": "",
+            "spellings": [
+                "balgreen",
+                "bal green"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 15,
+            "name": "Saughton",
+            "description": "",
+            "spellings": [
+                "saughton",
+                "sawton"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 16,
+            "name": "Bankhead",
+            "description": "",
+            "spellings": [
+                "bankhead",
+                "bank head"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 17,
+            "name": "Edinburgh Park Station",
+            "description": "",
+            "spellings": [
+                "edinburgh park station",
+                "edinburgh park stn",
+                "edinburgh pk station",
+                "edinburgh pk stn"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 18,
+            "name": "Edinburgh Park Central",
+            "description": "",
+            "spellings": [
+                "edinburgh park central",
+                "edinburgh park c",
+                "edinburgh pk central",
+                "edinburgh pk c"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 19,
+            "name": "Gyle Centre",
+            "description": "",
+            "spellings": [
+                "gyle centre",
+                "gyle center",
+                "gyle c"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 20,
+            "name": "Edinburgh Gateway",
+            "description": "",
+            "spellings": [
+                "edinburgh gateway",
+                "edinburgh gate way",
+                "gateway",
+                "gate way",
+                "edinburgh gateway station",
+                "edinburgh gate way station",
+                "edinburgh gateway stn",
+                "edinburgh gate way stn",
+                "gateway station",
+                "gate way station",
+                "gateway stn",
+                "gate way stn"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 21,
+            "name": "Gogarburn",
+            "description": "",
+            "spellings": [
+                "gogarburn",
+                "gogar burn"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 22,
+            "name": "Ingliston Park & Ride",
+            "description": "",
+            "spellings": [
+                "ingliston park and ride",
+                "ingliston park & ride",
+                "park and ride",
+                "park & ride"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        },
+        {
+            "id": 23,
+            "name": "Edinburgh Airport",
+            "description": "",
+            "spellings": [
+                "edinburgh airport",
+                "edinburgh air port",
+                "airport",
+                "air port"
+            ],
+            "latitude": 0,
+            "longitude": 0
+        }
+    ]
+}
