@@ -8,8 +8,8 @@
                 "newhaven",
                 "new haven"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.979958,
+            "longitude": -3.188747
         },
         {
             "id": 2,
@@ -19,8 +19,8 @@
                 "ocean terminal",
                 "ocean"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.980169,
+            "longitude": -3.177732
         },
         {
             "id": 3,
@@ -32,8 +32,8 @@
                 "leith port",
                 "leith"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.978093,
+            "longitude": -3.166392
         },
         {
             "id": 4,
@@ -43,8 +43,8 @@
                 "the shore",
                 "shore"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.974952,
+            "longitude": -3.166926
         },
         {
             "id": 5,
@@ -56,8 +56,8 @@
                 "the walk foot",
                 "the walk"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.970798,
+            "longitude": -3.171162
         },
         {
             "id": 6,
@@ -69,8 +69,8 @@
                 "balfur street",
                 "balfur st"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.965276,
+            "longitude": -3.176386
         },
         {
             "id": 7,
@@ -86,8 +86,8 @@
                 "mac donald road",
                 "mac donald rd"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.960716,
+            "longitude": -3.181546
         },
         {
             "id": 8,
@@ -97,8 +97,8 @@
                 "picardy place",
                 "picardy pl"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.956748,
+            "longitude": -3.187032
         },
         {
             "id": 9,
@@ -108,10 +108,14 @@
                 "st. andrew square",
                 "st andrew square",
                 "st. andrew sq",
-                "st andrew sq"
+                "st andrew sq",
+                "waverley",
+                "waverly",
+                "waverley station",
+                "waverley stn"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.954464,
+            "longitude": -3.192255
         },
         {
             "id": 10,
@@ -125,8 +129,8 @@
                 "princes' street",
                 "princes' st"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.951766,
+            "longitude": -3.198100
         },
         {
             "id": 11,
@@ -137,8 +141,8 @@
                 "westend",
                 "w end"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.948537, 
+            "longitude": -3.211814
         },
         {
             "id": 12,
@@ -149,8 +153,8 @@
                 "hay market",
                 "hay mkt"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.945887,
+            "longitude": -3.219593
         },
         {
             "id": 13,
@@ -162,8 +166,8 @@
                 "murrayfield",
                 "murray field"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.942114,
+            "longitude": -3.237176
         },
         {
             "id": 14,
@@ -173,8 +177,8 @@
                 "balgreen",
                 "bal green"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.938124,
+            "longitude": -3.252197
         },
         {
             "id": 15,
@@ -184,8 +188,8 @@
                 "saughton",
                 "sawton"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.932331,
+            "longitude": -3.275562
         },
         {
             "id": 16,
@@ -195,8 +199,8 @@
                 "bankhead",
                 "bank head"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.928846,
+            "longitude": -3.293781
         },
         {
             "id": 17,
@@ -208,8 +212,8 @@
                 "edinburgh pk station",
                 "edinburgh pk stn"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.927334,
+            "longitude": -3.306985
         },
         {
             "id": 18,
@@ -221,8 +225,8 @@
                 "edinburgh pk central",
                 "edinburgh pk c"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.931385,
+            "longitude": -3.314577
         },
         {
             "id": 19,
@@ -233,8 +237,8 @@
                 "gyle center",
                 "gyle c"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.938068,
+            "longitude": -3.318372
         },
         {
             "id": 20,
@@ -254,8 +258,8 @@
                 "gateway stn",
                 "gate way stn"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.940463,
+            "longitude": -3.321707
         },
         {
             "id": 21,
@@ -265,8 +269,8 @@
                 "gogarburn",
                 "gogar burn"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.938050,
+            "longitude": -3.332258
         },
         {
             "id": 22,
@@ -278,8 +282,8 @@
                 "park and ride",
                 "park & ride"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.940078, 
+            "longitude": -3.353992
         },
         {
             "id": 23,
@@ -291,8 +295,8 @@
                 "airport",
                 "air port"
             ],
-            "latitude": 0,
-            "longitude": 0
+            "latitude": 55.947768,
+            "longitude": -3.360574
         }
     ]
 }
