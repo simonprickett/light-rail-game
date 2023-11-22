@@ -139,7 +139,8 @@
             "spellings": [
                 "west end",
                 "westend",
-                "w end"
+                "w end",
+                "w. end"
             ],
             "latitude": 55.948537, 
             "longitude": -3.211814
@@ -210,7 +211,9 @@
                 "edinburgh park station",
                 "edinburgh park stn",
                 "edinburgh pk station",
-                "edinburgh pk stn"
+                "edinburgh pk stn",
+                "park station",
+                "park stn"
             ],
             "latitude": 55.927334,
             "longitude": -3.306985
@@ -223,7 +226,9 @@
                 "edinburgh park central",
                 "edinburgh park c",
                 "edinburgh pk central",
-                "edinburgh pk c"
+                "edinburgh pk c",
+                "park central",
+                "park c"
             ],
             "latitude": 55.931385,
             "longitude": -3.314577
@@ -235,7 +240,8 @@
             "spellings": [
                 "gyle centre",
                 "gyle center",
-                "gyle c"
+                "gyle c",
+                "gyle"
             ],
             "latitude": 55.938068,
             "longitude": -3.318372
