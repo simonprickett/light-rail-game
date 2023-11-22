@@ -1,0 +1,308 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Newhaven",
+            "description": "Newhaven tram stop is about a 20-minute walk from the Harbour where customers can find a number of local fishing boats, a fish market, restaurants, and hotels on the seaside. This tram stop is also close to where cruise ships dock on their stop in Edinburgh.",
+            "spellings": [
+                "newhaven",
+                "new haven"
+            ],
+            "latitude": 55.979958,
+            "longitude": -3.188747
+        },
+        {
+            "id": 2,
+            "name": "Ocean Terminal",
+            "description": "Ocean Terminal tram stop offers easy access to Ocean Terminal Shopping Centre which has many high-street shops and small bespoke independent stores. This tram stop is also next to the Royal Yacht Britannia, as well as the Port of Leith Distillery.",
+            "spellings": [
+                "ocean terminal",
+                "ocean"
+            ],
+            "latitude": 55.980169,
+            "longitude": -3.177732
+        },
+        {
+            "id": 3,
+            "name": "Port of Leith",
+            "description": "As well as serving local residents, the Port of Leith tram stop is a short distance away from Scotland’s largest enclosed, deep-water port.",
+            "spellings": [
+                "port of leith",
+                "port leith",
+                "leith port",
+                "leith"
+            ],
+            "latitude": 55.978093,
+            "longitude": -3.166392
+        },
+        {
+            "id": 4,
+            "name": "The Shore",
+            "description": "Located near Edinburgh’s famous Robert Burns statue,  The Shore tram stop is surrounded by a fantastic selection of small cafes, restaurants, and retailers. The area also edges the final section of the Water of Leith which is a popular destination for outdoor activities.",
+            "spellings": [
+                "the shore",
+                "shore"
+            ],
+            "latitude": 55.974952,
+            "longitude": -3.166926
+        },
+        {
+            "id": 5,
+            "name": "Foot of the Walk",
+            "description": "This stop is on Constitution Street rather than at the bottom of Leith walk.",
+            "spellings": [
+                "foot of the walk",
+                "foot of walk",
+                "the walk foot",
+                "the walk"
+            ],
+            "latitude": 55.970798,
+            "longitude": -3.171162
+        },
+        {
+            "id": 6,
+            "name": "Balfour Street",
+            "description": "With Pilrig Park approximately a 10-minute walk from the tram stop, Balfour Street is also near a wide range of one-of-a-kind cafes, boutiques, and small restaurants. It is also close to Dalmeny Street Park as well as local theatres and community centres.",
+            "spellings": [
+                "balfour street",
+                "balfour st",
+                "balfur street",
+                "balfur st"
+            ],
+            "latitude": 55.965276,
+            "longitude": -3.176386
+        },
+        {
+            "id": 7,
+            "name": "McDonald Road",
+            "description": "Situated near London Road, McDonald Road tram stop is surrounded  by some of the best markets, hangout spots, restaurants, and pubs in Leith Walk. Edinburgh’s iconic London Clock can also be found just a few minutes away from this tram stop.",
+            "spellings": [
+                "mcdonald road",
+                "mcdonald rd",
+                "mc donald road",
+                "mc donald rd",
+                "macdonald road",
+                "macdonald rd",
+                "mac donald road",
+                "mac donald rd"
+            ],
+            "latitude": 55.960716,
+            "longitude": -3.181546
+        },
+        {
+            "id": 8,
+            "name": "Picardy Place",
+            "description": "Picardy Place tram stop is located next to the Picardy Place roundabout and is a short distance away from Edinburgh Playhouse, one of UK’s largest all-seated theatres. With Calton Hill approximately a 10-minute walk away, this tram stop is also convenient for customers who want to visit St James Quarter and Omni Centre.",
+            "spellings": [
+                "picardy place",
+                "picardy pl"
+            ],
+            "latitude": 55.956748,
+            "longitude": -3.187032
+        },
+        {
+            "id": 9,
+            "name": "St. Andrew Square",
+            "description": "St Andrew Square tram stop is the closest one to Edinburgh Waverley rail station. Located on the east side of St Andrew Square and opposite the Harvey Nichols department store, this tram stop is a 5-minute walk away from St James Quarter, a new retail led, lifestyle district with public spaces and leisure venues for everyone to enjoy.",
+            "spellings": [
+                "st. andrew square",
+                "st andrew square",
+                "st. andrew sq",
+                "st andrew sq",
+                "waverley",
+                "waverly",
+                "waverley station",
+                "waverley stn"
+            ],
+            "latitude": 55.954464,
+            "longitude": -3.192255
+        },
+        {
+            "id": 10,
+            "name": "Princes Street",
+            "description": "The Princes Street tram stop offers quick and convenient access to one of Edinburgh’s most popular destinations, either for sightseeing or shopping. Located opposite The Mound, across from the Royal Scottish Academy Building, Princes Street is home to two urban parks which connect the city’s New Town and Old Town.",
+            "spellings": [
+                "princes street",
+                "princes st",
+                "prince's street",
+                "prince's st",
+                "princes' street",
+                "princes' st"
+            ],
+            "latitude": 55.951766,
+            "longitude": -3.198100
+        },
+        {
+            "id": 11,
+            "name": "West End",
+            "description": "This tram stop is situated in the heart of Edinburgh’s bustling West End which has plenty of picturesque, cobbled streets with a quiet atmosphere. Conveniently close to Shandwick Place, customers can also find high-quality restaurants, delicatessens, and cafes.",
+            "spellings": [
+                "west end",
+                "westend",
+                "w end",
+                "w. end"
+            ],
+            "latitude": 55.948537, 
+            "longitude": -3.211814
+        },
+        {
+            "id": 12,
+            "name": "Haymarket",
+            "description": "Located just outside of one Edinburgh’s two major mainline railway stations, Haymarket tram stop provides a transport link for tram and train customers. The Haymarket area offers a wealth of popular bars, restaurants, and shopping streets nearby. It is also approximately a 20-minute walk away from BT Murrayfield Stadium.",
+            "spellings": [
+                "haymarket",
+                "hay market",
+                "hay mkt"
+            ],
+            "latitude": 55.945887,
+            "longitude": -3.219593
+        },
+        {
+            "id": 13,
+            "name": "Murrayfield Stadium",
+            "description": "The Scottish Gas Murrayfield Stadium, Edinburgh’s most iconic sports venue, has its own dedicated tram stop right beside it, near Roseburn Street turnstiles. Access is also available to the Hive Stadium, home of Edinburgh Rugby, just next door. The tram stop is accessible via stairs or lift, with ticket machines at the bottom of the stairs.",
+            "spellings": [
+                "murrayfield stadium",
+                "murray field stadium",
+                "murrayfield",
+                "murray field"
+            ],
+            "latitude": 55.942114,
+            "longitude": -3.237176
+        },
+        {
+            "id": 14,
+            "name": "Balgreen",
+            "description": "Balgreen tram stop can be accessed via Balgreen Road. Balgreen is located to the west of Murrayfield and Saughtonhall, where customers can go for a walk along The Water of Leith. This area is also known for its large park facilities which are a perfect choice for a day out with friends or family.",
+            "spellings": [
+                "balgreen",
+                "bal green"
+            ],
+            "latitude": 55.938124,
+            "longitude": -3.252197
+        },
+        {
+            "id": 15,
+            "name": "Saughton",
+            "description": "Saughton tram stop is parallel to Broomhouse Drive next to Saughton Road. This tram stop serves the residential suburbs of Saughton, Carrick Knowe, and Stenhouse.",
+            "spellings": [
+                "saughton",
+                "sawton"
+            ],
+            "latitude": 55.932331,
+            "longitude": -3.275562
+        },
+        {
+            "id": 16,
+            "name": "Bankhead",
+            "description": "Just off Bankhead Drive, Bankhead tram stop is less than a 5-minute walk away from Edinburgh College and Edinburgh Napier University.",
+            "spellings": [
+                "bankhead",
+                "bank head"
+            ],
+            "latitude": 55.928846,
+            "longitude": -3.293781
+        },
+        {
+            "id": 17,
+            "name": "Edinburgh Park Station",
+            "description": "The tram stop at Edinburgh Park is right beside Edinburgh Park rail station, with frequent trains for Edinburgh Waverley, Helensburgh Central, Dunblane, and other places in Scotland. This tram stop is also right beside Hermiston Gait Retail Park where customers can find a whole choice of well-known brands.",
+            "spellings": [
+                "edinburgh park station",
+                "edinburgh park stn",
+                "edinburgh pk station",
+                "edinburgh pk stn",
+                "park station",
+                "park stn"
+            ],
+            "latitude": 55.927334,
+            "longitude": -3.306985
+        },
+        {
+            "id": 18,
+            "name": "Edinburgh Park Central",
+            "description": "Located inside Edinburgh Park business district, which is home to a beautiful series of tree-lined boulevards, this tram stop is in the heart of Lochside Place. Edinburgh Park Central is also a short distance away from Patina, a restaurant that has its own in-house bakery as well as a bespoke event space.",
+            "spellings": [
+                "edinburgh park central",
+                "edinburgh park c",
+                "edinburgh pk central",
+                "edinburgh pk c",
+                "park central",
+                "park c"
+            ],
+            "latitude": 55.931385,
+            "longitude": -3.314577
+        },
+        {
+            "id": 19,
+            "name": "Gyle Centre",
+            "description": "The tram stop at Gyle Centre is less than a two-minute walk from Gyle Shopping Centre which has a wide selection of retail outlets, specialist shops, supermarkets, food, and drinks. It is also conveniently located next to the shopping centre car park on the South Gyle Broadway.",
+            "spellings": [
+                "gyle centre",
+                "gyle center",
+                "gyle c",
+                "gyle"
+            ],
+            "latitude": 55.938068,
+            "longitude": -3.318372
+        },
+        {
+            "id": 20,
+            "name": "Edinburgh Gateway",
+            "description": "Edinburgh Gateway tram stop is connected to Edinburgh Gateway rail station where train services depart toward Dundee, Perth, Glenrothes with Thornton, and other key locations across Scotland. An escalator joins the tram platform to the main entrance of the station which has a ticket office, baby changing facilities, toilets, and a waiting room.",
+            "spellings": [
+                "edinburgh gateway",
+                "edinburgh gate way",
+                "gateway",
+                "gate way",
+                "edinburgh gateway station",
+                "edinburgh gate way station",
+                "edinburgh gateway stn",
+                "edinburgh gate way stn",
+                "gateway station",
+                "gate way station",
+                "gateway stn",
+                "gate way stn"
+            ],
+            "latitude": 55.940463,
+            "longitude": -3.321707
+        },
+        {
+            "id": 21,
+            "name": "Gogarburn",
+            "description": "Gogarburn tram stop primarily serves staff and visitors to the Royal Bank of Scotland Headquarters in Edinburgh. The main building is just a few minutes’ walk away and is accessed via the footbridge located directly west of the tram stop.",
+            "spellings": [
+                "gogarburn",
+                "gogar burn"
+            ],
+            "latitude": 55.938050,
+            "longitude": -3.332258
+        },
+        {
+            "id": 22,
+            "name": "Ingliston Park & Ride",
+            "description": "Conveniently located just off the A8 Airport Junction on Eastfield Road, Newbridge, EH28 8LS, Ingliston Park & Ride site has over 1,000 free car parking spaces and offers electric vehicle charging points.",
+            "spellings": [
+                "ingliston park and ride",
+                "ingliston park & ride",
+                "park and ride",
+                "park & ride"
+            ],
+            "latitude": 55.940078, 
+            "longitude": -3.353992
+        },
+        {
+            "id": 23,
+            "name": "Edinburgh Airport",
+            "description": "Edinburgh Airport tram stop is adjacent the arrivals and departures terminal. A covered walkway connects the airport building to the tram plaza. Within the tram plaza, customers can buy tickets or get onward travel information whilst relaxing in our Tram Information Lounge. The journey from Edinburgh Airport to the city centre takes less than 35 minutes, and approximately 55 minutes to Newhaven.",
+            "spellings": [
+                "edinburgh airport",
+                "edinburgh air port",
+                "airport",
+                "air port"
+            ],
+            "latitude": 55.947768,
+            "longitude": -3.360574
+        }
+    ]
+}
