@@ -8,7 +8,7 @@
     "alreadyFoundItText": "You've already found this station!",
     "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
     "congratulationsText": "Congratulations! You got them all!",
-    "successImage": "TODO.jpg",
+    "successImage": "glasgow_subway_train.jpg",
     "successImageAlt": "A picture of a Glasgow Subway train.",
-    "successImageDescription": "TODO"
+    "successImageDescription": "Picture by <a href=\"https://www.flickr.com/people/28984065@N04\">calflier001</a> from <a href=\"\">Wikimedia Commons</a>."
 }

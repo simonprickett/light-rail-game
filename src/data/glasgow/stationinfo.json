@@ -7,8 +7,8 @@
             "spellings": [
                 "partick"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.86986602544226,
+            "longitude": -4.308677878474332
         },
         {
             "id": 2,
@@ -18,8 +18,8 @@
                 "govan",
                 "goven"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.862318866561374,
+            "longitude": -4.310505797170938
         },
         {
             "id": 3,
@@ -30,8 +30,8 @@
                 "ibrox stadium",
                 "stadium"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.85474948411168,
+            "longitude": -4.304393515834143
         },
         {
             "id": 4,
@@ -39,10 +39,10 @@
             "description": "",
             "spellings": [
                 "cessnock",
-                ""
+                "cesnock"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.85232567088854,
+            "longitude": -4.294316457120625
         },
         {
             "id": 5,
@@ -52,8 +52,8 @@
                 "kinning park",
                 "kinning pk"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.85051500335901,
+            "longitude": -4.287790547406857
         },
         {
             "id": 6,
@@ -63,8 +63,8 @@
                 "shields road",
                 "shields rd"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.8500993805586,
+            "longitude": -4.274697343109062
         },
         {
             "id": 7,
@@ -78,8 +78,8 @@
                 "w st",
                 "w str"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.849630407470094,
+            "longitude": -4.265898751436805
         },
         {
             "id": 8,
@@ -102,8 +102,8 @@
                 "st enoch",
                 "saint enoch"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.85728970489835,
+            "longitude": -4.255265317146873
         },
         {
             "id": 10,
@@ -114,8 +114,8 @@
                 "buchanan st",
                 "buchanan str"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.86239590712508,
+            "longitude": -4.253364280532213
         },
         {
             "id": 11,
@@ -125,8 +125,8 @@
                 "cowcaddens",
                 "cow caddens"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.86829777753037,
+            "longitude": -4.259916406086573
         },
         {
             "id": 12,
@@ -141,10 +141,10 @@
                 "saint georges cross",
                 "st george cross",
                 "st. george cross",
-                "saint george cross",
+                "saint george cross"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.87131267985726,
+            "longitude": -4.269201459797881
         },
         {
             "id": 13,
@@ -155,8 +155,8 @@
                 "kelvin bridge",
                 "kelbvin br"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.87491338054532,
+            "longitude": -4.279753780421179
         },
         {
             "id": 14,
@@ -166,8 +166,8 @@
                 "hillhead",
                 "hill head"
             ],
-            "latitude": ,
-            "longitude": 
+            "latitude": 55.875453217129696,
+            "longitude": -4.293399659762757
         },
         {
             "id": 15,
@@ -177,9 +177,8 @@
                 "kelvinhall",
                 "kelvin hall"
             ],
-            "latitude": ,
-            "longitude": 
-        },
-
+            "latitude": 55.87154240552273,
+            "longitude": -4.300052865077511
+        }
     ]
 }
