@@ -109,6 +109,8 @@
                 "st andrew square",
                 "st. andrew sq",
                 "st andrew sq",
+                "saint andrew square",
+                "saint andrew sq",
                 "waverley",
                 "waverly",
                 "waverley station",
@@ -241,7 +243,8 @@
                 "gyle centre",
                 "gyle center",
                 "gyle c",
-                "gyle"
+                "gyle",
+                "the gyle"
             ],
             "latitude": 55.938068,
             "longitude": -3.318372
@@ -286,7 +289,8 @@
                 "ingliston park and ride",
                 "ingliston park & ride",
                 "park and ride",
-                "park & ride"
+                "park & ride",
+                "ingliston"
             ],
             "latitude": 55.940078, 
             "longitude": -3.353992
