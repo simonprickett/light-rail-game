@@ -1,0 +1,185 @@
+{
+    "stations": [
+        {
+            "id": 1,
+            "name": "Partick",
+            "description": "",
+            "spellings": [
+                "partick"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 2,
+            "name": "Govan",
+            "description": "",
+            "spellings": [
+                "govan",
+                "goven"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 3,
+            "name": "Ibrox",
+            "description": "",
+            "spellings": [
+                "ibrox",
+                "ibrox stadium",
+                "stadium"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 4,
+            "name": "Cessnock",
+            "description": "",
+            "spellings": [
+                "cessnock",
+                ""
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 5,
+            "name": "Kinning Park",
+            "description": "",
+            "spellings": [
+                "kinning park",
+                "kinning pk"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 6,
+            "name": "Shields Road",
+            "description": "",
+            "spellings": [
+                "shields road",
+                "shields rd"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 7,
+            "name": "West Street",
+            "description": "",
+            "spellings": [
+                "west street",
+                "west st",
+                "west str",
+                "w street",
+                "w st",
+                "w str"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 8,
+            "name": "Bridge Street",
+            "description": "",
+            "spellings": [
+                "bridge street",
+                "bridge st",
+                "bridge str"
+            ],
+            "latitude": 55.85246834766885,
+            "longitude": -4.257996050266159
+        },
+        {
+            "id": 9,
+            "name": "St. Enoch",
+            "description": "",
+            "spellings": [
+                "st. enoch",
+                "st enoch",
+                "saint enoch"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 10,
+            "name": "Buchanan Street",
+            "description": "",
+            "spellings": [
+                "buchanan street",
+                "buchanan st",
+                "buchanan str"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 11,
+            "name": "Cowcaddens",
+            "description": "",
+            "spellings": [
+                "cowcaddens",
+                "cow caddens"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 12,
+            "name": "St George's Cross",
+            "description": "",
+            "spellings": [
+                "st george's cross",
+                "st. george's cross",
+                "saint george's cross",
+                "st georges cross",
+                "st. georges cross",
+                "saint georges cross",
+                "st george cross",
+                "st. george cross",
+                "saint george cross",
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 13,
+            "name": "Kelvinbridge",
+            "description": "",
+            "spellings": [
+                "kelvinbridge",
+                "kelvin bridge",
+                "kelbvin br"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 14,
+            "name": "Hillhead",
+            "description": "",
+            "spellings": [
+                "hillhead",
+                "hill head"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+        {
+            "id": 15,
+            "name": "Kelvinhall",
+            "description": "",
+            "spellings": [
+                "kelvinhall",
+                "kelvin hall"
+            ],
+            "latitude": ,
+            "longitude": 
+        },
+
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Glasgow Subway Station Guessing Game",
+    "description": "There are 15 stations on the Glasgow Subway system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+    "url": "https://glasubgame.simonprickett.dev",
+    "locale": "en_GB",
+    "inputPlaceholderText": "Station...",
+    "inputHelpText": "Enter the name of a Glasgow Subway station.",
+    "alreadyFoundItText": "You've already found this station!",
+    "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
+    "congratulationsText": "Congratulations! You got them all!",
+    "successImage": "TODO.jpg",
+    "successImageAlt": "A picture of a Glasgow Subway train.",
+    "successImageDescription": "TODO"
+}
