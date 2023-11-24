@@ -57,6 +57,11 @@ async function runGame() {
     }
   ).addTo(myMap);
 
+  // Limit the map area to the original window so the user can't
+  // scroll around the world using up map tile allocation!
+  myMap.setMaxBounds(myMap.getBounds());
+  myMap.setMinZoom(config.map.startPos.zoom - 1);
+
   // Initialise the found stations header.
   updateProgress();
 
