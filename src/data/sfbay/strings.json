@@ -8,7 +8,7 @@
   "alreadyFoundItText": "You've already found this station!",
   "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
   "congratulationsText": "Congratulations! You got them all!",
-  "successImage": "TODO",
-  "successImageAlt": "TODO",
-  "successImageDescription": "TODO"
+  "successImage": "bart_on_bridge.jpg",
+  "successImageAlt": "A BART train on a bridge approaching Walnut Creek station.",
+  "successImageDescription": "Image by <a href=\"https://commons.wikimedia.org/wiki/User:InvadingInvader\">InvadingInvader</a> from <a href=\"https://commons.wikimedia.org/wiki/File:BART_on_Walnut_Creek_Bridge.jpg\">WikiMedia Commons</a>."
 }
