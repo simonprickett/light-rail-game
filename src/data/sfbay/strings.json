@@ -1,0 +1,14 @@
+{
+  "title": "BART Station Guessing Game",
+  "description": "There are 50 stations on the BART system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+  "url": "https://bartgame.simonprickett.dev",
+  "locale": "en_US",
+  "inputPlaceholderText": "Station...",
+  "inputHelpText": "Enter the name of a BART station.",
+  "alreadyFoundItText": "You've already found this station!",
+  "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
+  "congratulationsText": "Congratulations! You got them all!",
+  "successImage": "TODO",
+  "successImageAlt": "TODO",
+  "successImageDescription": "TODO"
+}
