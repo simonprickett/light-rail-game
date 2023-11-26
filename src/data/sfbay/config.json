@@ -3,13 +3,13 @@
     "tileLayer": "stamen_toner_background",
     "maxZoom": 19,
     "startPos": {
-      "latitude": 37.661058,
-      "longitude": -122.269041,
-      "zoom": 14
+      "latitude": 37.690340943717715,
+      "longitude": -122.16796875000001,
+      "zoom": 10
     }
   },
   "track": {
-    "color": "#FF6200",
+    "color": "#0064A8",
     "weight": 6
   },
   "station": {
