@@ -6,7 +6,25 @@
       "latitude": 37.803768,
       "longitude": -122.271450,
       "spellings": [
-
+        "12th st. oakland city center",
+        "12th st. oakland city centre",
+        "12th st. oakland",
+        "12th st oakland city center",
+        "12th st oakland city centre",
+        "12th st oakland",
+        "12 st oakland city center",
+        "12 st oakland city centre",
+        "12th street oakland city center",
+        "12th street oakland city centre",
+        "12th street. oakland",
+        "12th street oakland city center",
+        "12th street oakland city centre",
+        "12th street oakland",
+        "12 street oakland city center",
+        "12 street oakland city centre",
+        "oakland city center",
+        "oakland center",
+        "12th"
       ],
       "description": "12th St. Oakland City Center Station is in the heart of Downtown Oakland, near historic Old Oakland and Oakland's Chinatown. BART's Lost and Found is located at this station."
     },
@@ -16,7 +34,19 @@
       "latitude": 37.765062,
       "longitude": -122.419694,
       "spellings": [
-
+        "16th st. mission",
+        "16th st mission",
+        "16th mission",
+        "16th st.",
+        "16th st",
+        "16 st. mission",
+        "16 st mission",
+        "16 mission",
+        "16 st.",
+        "16 st",
+        "16th mission",
+        "16 mission",
+        "16th"
       ],
       "description": "The Mission refers to the San Francisco de Asis Mission, also known as Mission Dolores, which was founded 1776. Today the neighborhood is host to an eclectic mix of restaurants, markets, performance spaces, shops, and nightspots."
     },
@@ -26,7 +56,13 @@
       "latitude": 37.808350,
       "longitude": -122.268602,
       "spellings": [
-
+        "19th st. oakland",
+        "19th st oakland",
+        "19th street oakland",
+        "19 st. oakland",
+        "19 st oakland",
+        "19 street oakland",
+        "19th"
       ],
       "description": "19th Street Station is in the heart of Uptown Oakland near the historic Paramount Theater on Broadway. Public restrooms are available."
     },
@@ -36,7 +72,19 @@
       "latitude": 37.752470,
       "longitude": -122.418143,
       "spellings": [
-
+        "24th st. mission",
+        "24th st mission",
+        "24th mission",
+        "24th st.",
+        "24th st",
+        "24 st. mission",
+        "24 st mission",
+        "24 mission",
+        "24 st.",
+        "24 st",
+        "24th mission",
+        "24 mission",
+        "24th"
       ],
       "description": "The Mission refers to the San Francisco de Asis Mission, also known as Mission Dolores, which was founded 1776. Today the neighborhood is host to an eclectic mix of restaurants, markets, performance spaces, shops, and nightspots."
     },
@@ -46,7 +94,7 @@
       "latitude": 37.995388,
       "longitude": -121.780420,
       "spellings": [
-
+        "antioch"
       ],
       "description": "Antioch is a terminal station on the yellow line serving northern and eastern Contra Costa County. It is part of a new rail system that connects to BART's Pittsburg/Bay Point station using state-of-the art Diesel Multiple Unit (DMU) vehicles.There is a Transfer Platform between Pittsburg/Bay Point and Pittsburg Center where riders walk from one train to another. The Transfer Platform is only reachable by train."
     },
@@ -56,7 +104,7 @@
       "latitude": 37.852803,
       "longitude": -122.270062,
       "spellings": [
-
+        "ashby"
       ],
       "description": "Ashby Station is located on Ashby Avenue and Adeline Street in the southern part of Berkeley. On weekends, the City of Berkeley sponsors a popular flea market in the parking lot."
     },
@@ -66,7 +114,9 @@
       "latitude": 37.721585,
       "longitude": -122.447506,
       "spellings": [
-
+        "balboa park",
+        "balboa",
+        "balboa pk"
       ],
       "description": "Balboa Park is the name of both a San Francisco neighborhood and a public park between Mission Street and I-280 north of Geneva Avenue. The park features a public swimming pool, children's playground, baseball diamonds and tennis courts."
     },
@@ -76,19 +126,32 @@
       "latitude": 37.696924,
       "longitude": -122.126514,
       "spellings": [
-
+        "bay fair",
+        "bayfair",
+        "bay fare",
+        "bayfare"
       ],
       "description": "Bay Fair Station provides easy access to Bayfair Center in San Leandro, one of the first shopping centers built in the East Bay."
     },
     {
-      "name": "Berryessa/North San Jose",
+      "name": "Berryessa/North San José",
       "id": 9,
       "latitude": 37.368473,
       "longitude": -121.874681,
       "spellings": [
-
+        "berryessa/north san jose",
+        "berryessa / north san jose",
+        "berryessa",
+        "north san jose",
+        "berryessa north san jose",
+        "berryessa san jose",
+        "berryessa/north san josé",
+        "berryessa / north san josé",
+        "north san josé",
+        "berryessa north san josé",
+        "berryessa san josé"
       ],
-      "description": "The Berryessa/North San Jose station is the southernmost station in Santa Clara County. The BART station is located within VTA's Berryessa Transit Center with frequent connections to VTA buses, including rapid service into Downtown San Jose and Diridon Station."
+      "description": "The Berryessa/North San José station is the southernmost station in Santa Clara County. The BART station is located within VTA's Berryessa Transit Center with frequent connections to VTA buses, including rapid service into Downtown San José and Diridon Station."
     },
     {
       "name": "Castro Valley",
@@ -96,7 +159,8 @@
       "latitude": 37.690746,
       "longitude": -122.075602,
       "spellings": [
-
+        "castro valley",
+        "castro"
       ],
       "description": "Once known for its chicken ranches, Castro Valley was named after Don Guillermo Castro, a local rancher and magistrate in the mid-1800s."
     },
@@ -106,7 +170,15 @@
       "latitude": 37.779732,
       "longitude": -122.414123,
       "spellings": [
-
+        "civic center/un plaza",
+        "civic center / un plaza",
+        "civic center un plaza",
+        "civic center",
+        "un plaza",
+        "civic centre/un plaza",
+        "civic centre / un plaza",
+        "civic centre un plaza",
+        "civic centre"
       ],
       "description": "Civic Center/UN Plaza Station is nearby some notable San Francisco destinations including including City Hall, War Memorial Opera House, Asian Art Museum, Louise M. Davies Symphony Hall, and the Main Branch of the San Francisco Public Library."
     },
@@ -116,7 +188,8 @@
       "latitude": 37.753661,
       "longitude": -122.196869,
       "spellings": [
-
+        "coliseum",
+        "oakland coliseum"
       ],
       "description": "Coliseum is the transfer Station that connects BART to the Oakland International Airport Station (OAK). The station is also connected by a pedestrian bridge to the O.co Coliseum and Oracle Arena."
     },
@@ -126,7 +199,7 @@
       "latitude": 37.684638,
       "longitude": -122.466233,
       "spellings": [
-
+        "colma"
       ],
       "description": "The Town of Colma is a diverse community on the San Francisco peninsula that maintains that small town feel despite being so close to major cities. The Colma BART Station is close to residential neighborhoods and shopping areas. Colma is perhaps best known for its 17 cemeteries, which comprise approximately 73% of the town's land area. The town incorporated in 1924 primarily to protect this land use. Colma's cemeteries represent numerous religious beliefs and nationalities, and include structures and districts which are historically significant on local, state and national levels."
     },
@@ -136,7 +209,8 @@
       "latitude": 37.973737,
       "longitude": -122.029095,
       "spellings": [
-
+        "concord",
+        "concorde"
       ],
       "description": "Concord is the largest city in Contra Costa County. The Concord BART Station was the end of the line until 1995 when the line was extended to Pittsburg/Bay Point."
     },
@@ -146,7 +220,10 @@
       "latitude": 37.706121,
       "longitude": -122.469081,
       "spellings": [
-
+        "daly city",
+        "daly cty",
+        "daly c",
+        "daly"
       ],
       "description": "Daly City, located at the northernmost edge of San Mateo County, is often called the Gateway to the Peninsula."
     },
@@ -156,7 +233,18 @@
       "latitude": 37.870104,
       "longitude": -122.268133,
       "spellings": [
-
+        "downtown berkeley",
+        "down town berkeley",
+        "berkeley",
+        "downtown berkely",
+        "down town berkely",
+        "berkely",
+        "downtown berkly",
+        "down town berkly",
+        "berkly",
+        "downtown berkley",
+        "down town berkley",
+        "berkley"
       ],
       "description": "The Downtown Berkeley BART Station is located on Shattuck Avenue between Allston Way and Addison Street. It is conveniently located close to the University of California campus and to many shops, restaurants, theaters and other attractions, and has valet bike parking."
     },
@@ -166,7 +254,11 @@
       "latitude": 37.701687,
       "longitude": -121.899179,
       "spellings": [
-
+        "dublin/pleasanton",
+        "dublin / pleasanton",
+        "dublin pleasanton",
+        "dublin",
+        "pleasanton"
       ],
       "description": "This unique station straddles the border of Dublin and Pleasanton on Interstate 580. The station features a number of local and regional bus connections."
     },
@@ -176,7 +268,8 @@
       "latitude": 37.925086,
       "longitude": -122.316794,
       "spellings": [
-
+        "el cerrito del norte",
+        "del norte"
       ],
       "description": "Sometimes called simply del Norte, as the name suggests this station serves the northern part of the City of El Cerrito."
     },
@@ -186,7 +279,7 @@
       "latitude": 37.902632,
       "longitude": -122.298904,
       "spellings": [
-
+        "el cerrito plaza"
       ],
       "description": "El Cerrito Plaza is one of two BART stations in the City of El Cerrito. It serves southern El Cerrito, northern Albany, Kensington and nearby areas of Berkeley and Richmond."
     },
@@ -196,7 +289,8 @@
       "latitude": 37.792874,
       "longitude": -122.397020,
       "spellings": [
-
+        "embarcadero",
+        "ferry building"
       ],
       "description": "Located in San Francisco's Financial District at the foot of Market Street, Embarcadero Station is close to the Ferry Building, Embarcadero Center, Salesforce Transit Center and the California Street cable car."
     },
@@ -206,7 +300,8 @@
       "latitude": 37.557465,
       "longitude": -121.976608,
       "spellings": [
-
+        "fremont",
+        "freemont"
       ],
       "description": "Fremont Station is located in central Fremont. The city, and the station, are named for American explorer John Charles Frémont."
     },
@@ -216,7 +311,8 @@
       "latitude": 37.774836,
       "longitude": -122.224175,
       "spellings": [
-
+        "fruitvale",
+        "fruit vale"
       ],
       "description": "Originally called Fruit Vale, the neighborhood around Fruitvale BART Station was mostly apricot and cherry orchards in the late 1800s. Today, it's a vibrant neighborhood and one of Oakland's main commercial areas."
     },
@@ -226,7 +322,12 @@
       "latitude": 37.733064,
       "longitude": -122.433817,
       "spellings": [
-
+        "glen park",
+        "glenn park",
+        "glenpark",
+        "glennpark",
+        "glen pk",
+        "glenn pk"
       ],
       "description": "The Glen Park neighborhood in San Francisco is nestled in a small valley below Diamond Heights, and BART is at the center of the neighborhood on the corner of Diamond and Bosworth Streets."
     },
@@ -236,7 +337,10 @@
       "latitude": 37.669723,
       "longitude": -122.087018,
       "spellings": [
-
+        "hayward",
+        "haywood",
+        "heyward",
+        "heywood"
       ],
       "description": "The City of Hayward is known as the Heart of the Bay for its central and convenient location in Alameda County. Hayward BART Station is near a pedestrian-friendly downtown with a mix of housing, shops, offices and restaurants."
     },
@@ -246,7 +350,10 @@
       "latitude": 37.893176,
       "longitude": -122.124630,
       "spellings": [
-
+        "lafayette",
+        "lafayete",
+        "lafayett",
+        "lafayet"
       ],
       "description": "Centrally located in the East Bay hills, Lafayette exudes a quiet rural atmosphere and features a distinctive downtown."
     },
@@ -256,7 +363,22 @@
       "latitude": 37.797027,
       "longitude": -122.265180,
       "spellings": [
-
+        "lake merritt",
+        "lake merrit",
+        "lake meritt",
+        "lake merit",
+        "lke merritt",
+        "lke merrit",
+        "lke meritt",
+        "lke merit",
+        "lk merritt",
+        "lk merrit",
+        "lk meritt",
+        "lk merit",
+        "merritt",
+        "meritt",
+        "merrit",
+        "merit"
       ],
       "description": "Lake Merritt Station is ideally located near Oakland Chinatown, Laney College and the Oakland Museum. Public restrooms are available."
     },
@@ -266,7 +388,12 @@
       "latitude": 37.829065,
       "longitude": -122.267040,
       "spellings": [
-
+        "macarthur",
+        "mac arthur",
+        "mac arther",
+        "mcarthur",
+        "mc arthur",
+        "mc arther"
       ],
       "description": "MacArthur Station is a major BART transfer point near the commercial heart of Temescal, one of north Oakland's oldest neighborhoods."
     },
@@ -276,7 +403,10 @@
       "latitude": 37.600271,
       "longitude": -122.386702,
       "spellings": [
-
+        "millbrae",
+        "mill brae",
+        "millbray",
+        "mill bray"
       ],
       "description": "Situated on an estate formerly owned by Darius Ogden Mills, this city's name derives from Mills and the Scottish word brae or rolling hills. The Millbrae BART Station features a cross-platform connection to Caltrain."
     },
@@ -286,7 +416,7 @@
       "latitude": 37.410277,
       "longitude": -121.891081,
       "spellings": [
-
+        "milpitas"
       ],
       "description": "The Milpitas Station is located within Santa Clara Valley Transportation Authority's Milpitas Transit Center. It is the northernmost BART station in Santa Clara County."
     },
@@ -296,7 +426,12 @@
       "latitude": 37.789405,
       "longitude": -122.401066,
       "spellings": [
-
+        "montgomery st.",
+        "montgomery st",
+        "montgomery str",
+        "montgomery street",
+        "financial district",
+        "montgomery"
       ],
       "description": "Located in the heart of San Francisco's Financial District on Market Street, Montgomery Station features excellent access to San Francisco Muni and destinations throughout the city.Public restrooms are available."
     },
@@ -306,7 +441,22 @@
       "latitude": 37.873967,
       "longitude": -122.283440,
       "spellings": [
-
+        "north berkeley",
+        "n berkeley",
+        "berkeley north",
+        "berkeley n",
+        "north berkely",
+        "n berkely",
+        "berkely north",
+        "berkely n",
+        "north berkly",
+        "n berkly",
+        "berkly north",
+        "berkly n",
+        "north berkley",
+        "n berkley",
+        "berkley north",
+        "berkley n"
       ],
       "description": "North Berkeley Station features a unique circular building and offers easy access to the Ohlone Greenway, an East Bay pedestrian and bicycle path."
     },
@@ -316,7 +466,42 @@
       "latitude": 38.003193,
       "longitude": -122.024653,
       "spellings": [
-
+        "north concord/martinez",
+        "north concord / martinez",
+        "north concord martinez",
+        "north concord",
+        "martinez",
+        "concord martinez",
+        "north concorde/martinez",
+        "north concorde / martinez",
+        "north concorde martinez",
+        "north concorde",
+        "martinez",
+        "concorde martinez",
+        "n concord/martinez",
+        "n concord / martinez",
+        "n concord martinez",
+        "n concord",
+        "n concorde/martinez",
+        "n concorde / martinez",
+        "n concorde martinez",
+        "n concorde",
+        "concord n/martinez",
+        "concord n / martinez",
+        "concord n martinez",
+        "concord n",
+        "concorde n/martinez",
+        "concorde n / martinez",
+        "concorde n martinez",
+        "concorde n",
+        "concord n/martinez",
+        "concord n / martinez",
+        "concord n martinez",
+        "concord n",
+        "concorde n/martinez",
+        "concorde n / martinez",
+        "concorde n martinez",
+        "concorde n",
       ],
       "description": "The North Concord/Martinez station opened December 16, 1995 and briefly served as end of the line until BART completed the Pittsburg/Bay Point extension over Willow Pass in 1996."
     },
@@ -326,7 +511,18 @@
       "latitude": 37.713238,
       "longitude": -122.212191,
       "spellings": [
-
+        "oakland international airport",
+        "oakland intl airport",
+        "oakland airport",
+        "oakland international apt",
+        "oakland intl apt",
+        "oakland apt",
+        "oak international airport",
+        "oak intl airport",
+        "oak international apt",
+        "oak intl apt",
+        "oak apt",
+        "oak"
       ],
       "description": "The Oakland International Airport Station is located just across from the Terminal 1 baggage claim area and a short walk from Terminal 2."
     },
@@ -336,7 +532,8 @@
       "latitude": 37.878361,
       "longitude": -122.183791,
       "spellings": [
-
+        "orinda",
+        "orinder"
       ],
       "description": "Originally a rural area known for ranching and summer cabins, today Orinda is primarily a residential community with a rich history that is depicted on a mural and map in the station."
     },
@@ -346,7 +543,20 @@
       "latitude": 38.018914,
       "longitude": -121.945154,
       "spellings": [
-
+        "pittsburg/bay point",
+        "pittsburg bay point",
+        "pittsburg / bay point",
+        "pittsburgh/bay point",
+        "pittsburgh bay point",
+        "pittsburgh / bay point",
+        "pittsburg/bay pt",
+        "pittsburg bay pt",
+        "pittsburg / bay pt",
+        "pittsburgh/bay pt",
+        "pittsburgh bay pt",
+        "pittsburgh / bay pt",
+        "bay point",
+        "bay pt"
       ],
       "description": "Pittsburg/Bay Point is part of the yellow line serving northern and eastern Contra Costa County. A transfer platform located just outside the station connects riders to the BART to Antioch trains."
     },
@@ -356,7 +566,12 @@
       "latitude": 38.016941,
       "longitude": -121.889457,
       "spellings": [
-
+        "pittsburg center",
+        "pittsburg centre",
+        "pittsburg c",
+        "pittsburg center",
+        "pittsburg centre",
+        "pittsburgh c"
       ],
       "description": "Pittsburg Center is on the yellow line serving northern and eastern Contra Costa County. It is part of a new rail system that connects BART's Pittsburg/Bay Point and Antioch stations using state-of-the art Diesel Multiple Unit (DMU) vehicles. Ticket vending machines only dispense Clipper cards. There is a one-time $3 acquisition fee. Magstripe paper tickets are not sold at the station, but you can use paper tickets purchased elsewhere in the system to enter or exit. There is a Transfer Platform between Pittsburg/Bay Point and Pittsburg Center where riders walk from one train to another. The Transfer Platform is only reachable by train."
     },
@@ -366,7 +581,23 @@
       "latitude": 37.928468,
       "longitude": -122.056012,
       "spellings": [
-
+        "pleasant hill/contra costa centre",
+        "pleasant hill contra costa centre",
+        "pleasant hill / contra costa centre",
+        "pleasant hill",
+        "pleasant hill contra costa",
+        "contra costa centre",
+        "pleasant hill/contra costa center",
+        "pleasant hill contra costa center",
+        "pleasant hill / contra costa center",
+        "pleasant hill",
+        "pleasant hill contra costa",
+        "contra costa center",
+        "pleasanthill/contra costa center",
+        "pleasanthill contra costa center",
+        "pleasanthill / contra costa center",
+        "pleasanthill",
+        "pleasanthill contra costa"
       ],
       "description": "BART, buses, Highway 680 and the Iron Horse pedestrian and bicycle trail all converge to make this one of BART's most easily accessed stations."
     },
@@ -376,7 +607,9 @@
       "latitude": 37.784471,
       "longitude": -122.407974,
       "spellings": [
-
+        "powell st.",
+        "powell st",
+        "powell"
       ],
       "description": "Located at Powell and Market Streets, this station is centrally located near San Francisco's most popular attractions including the cable cars, Union Square, Yerba Buena Gardens, the Moscone Convention Center and the City's Theatre District. Public restrooms are available."
     },
@@ -386,7 +619,7 @@
       "latitude": 37.936853,
       "longitude": -122.353099,
       "spellings": [
-
+        "richmond"
       ],
       "description": "Three major railroad tracks, including BART's, help to outline the Iron Triangle in Richmond: a largely residential area that also includes the downtown Richmond business district along Macdonald Avenue."
     },
@@ -396,7 +629,8 @@
       "latitude": 37.844702,
       "longitude": -122.251371,
       "spellings": [
-
+        "rockridge",
+        "rock ridge"
       ],
       "description": "Named for local rock outcroppings formed by the Hayward Fault, the Rockridge neighborhood is a vibrant residential neighborhood, retail and commercial district in Oakland."
     },
@@ -406,7 +640,7 @@
       "latitude": 37.637761,
       "longitude": -122.416287,
       "spellings": [
-
+        "san bruno"
       ],
       "description": "San Bruno Station is next to the city's Tanforan shopping mall and business area. Before becoming a mall, Tanforan was a racetrack, airfield and military center. During World War II it was used as a temporary detention center for persons of Japanese descent before they were relocated to long term incarceration camps."
     },
@@ -416,9 +650,23 @@
       "latitude": 37.615966,
       "longitude": -122.392409,
       "spellings": [
-
+        "san francisco international airport",
+        "san francisco international apt",
+        "san francisco international",
+        "sf international",
+        "sf intl",
+        "san francisco intl airport",
+        "san francisco intl apt",
+        "san francisco airport",
+        "san francisco apt",
+        "sf international apt",
+        "sf intl apt",
+        "sf airport",
+        "sf apt",
+        "sfo",
+        "sfia"
       ],
-      "description": "his station is located in the International Terminal at SFO. It's a short walk to United Airlines in Terminal 3, but all domestic terminals (1, 2 & 3) are one to three minutes away on AirTrain."
+      "description": "This station is located in the International Terminal at SFO. It's a short walk to United Airlines in Terminal 3, but all domestic terminals (1, 2 & 3) are one to three minutes away on AirTrain."
     },
     {
       "name": "San Leandro",
@@ -426,7 +674,7 @@
       "latitude": 37.721947,
       "longitude": -122.160844,
       "spellings": [
-
+        "san leandro"
       ],
       "description": "Agriculture was an important part of San Leandro's history and cherries were one of the City's most well-known crops. The city's first Cherry Festival was held in 1909 and the tradition still continues today."
     },
@@ -436,7 +684,13 @@
       "latitude": 37.634375,
       "longitude": -122.057189,
       "spellings": [
-
+        "south hayward",
+        "s hayward",
+        "south haywood",
+        "s haywood",
+        "hayward south",
+        "hayward s",
+        "haywood south"
       ],
       "description": "Hayward, originally known as 'Haywards', is named for William Hayward, a New England shoe factory worker who came to California during the Gold Rush."
     },
@@ -446,7 +700,18 @@
       "latitude": 37.664245,
       "longitude": -122.443960,
       "spellings": [
-
+        "south san francisco",
+        "south sf",
+        "s. san francisco",
+        "s san francisco",
+        "s sf",
+        "s. sf",
+        "san francisco south",
+        "sf south",
+        "san francisco s.",
+        "san francisco s",
+        "sf s",
+        "sf s."
       ],
       "description": "Emerging from a portion of old Rancho Buri Buri, South San Francisco occupies the basin and portions of the sides of a broad valley formed by the San Bruno Mountains on the north and the Coast Range on the west."
     },
@@ -456,7 +721,8 @@
       "latitude": 37.590630,
       "longitude": -122.017388,
       "spellings": [
-
+        "union city",
+        "union cty"
       ],
       "description": "Incorporated in 1959, Union City combined the communities of Alvarado, Decoto, and New Haven. Alvarado was the original county seat of Alameda County, and the site of the first county courthouse is a California Historical Landmark."
     },
@@ -466,7 +732,10 @@
       "latitude": 37.905522,
       "longitude": -122.067527,
       "spellings": [
-
+        "walnut creek",
+        "walnut cr",
+        "walnut ck",
+        "walnut crk"
       ],
       "description": "The Walnut Creek BART Station is a key piece of infrastructure for a thriving community that can also be characterized as the business and arts center for Contra Costa County."
     },
@@ -476,7 +745,23 @@
       "latitude": 37.502171,
       "longitude": -121.939313,
       "spellings": [
-
+        "warm springs/south fremont",
+        "warm springs / south fremont",
+        "warm springs south fremont",
+        "warm springs/s fremont",
+        "warm springs / s fremont",
+        "warm springs",
+        "south fremont",
+        "s fremont",
+        "s. fremont",
+        "fremont south",
+        "fremont s",
+        "fremont s.",
+        "warm springs/fremont south",
+        "warm springs / fremont south",
+        "warm springs fremont south",
+        "warm springs/fremont s",
+        "warm springs / fremont s"
       ],
       "description": "Warm Springs/South Fremont Station is the southernmost station in Alameda County and in the heart of Fremont’s Warm Springs Innovation District."
     },
@@ -486,7 +771,26 @@
       "latitude": 37.699756,
       "longitude": -121.928240,
       "spellings": [
-
+        "west dublin/pleasanton",
+        "west dublin / pleasanton",
+        "west dublin pleasanton",
+        "w dublin/pleasanton",
+        "w dublin / pleasanton",
+        "w dublin pleasanton",
+        "w dublin",
+        "w pleasanton",
+        "west dublin",
+        "west pleasanton",
+        "dublin west",
+        "dublin w",
+        "pleasanton west",
+        "pleasanton w",
+        "dublin west/pleasanton",
+        "dublin west / pleasanton",
+        "dublin west pleasanton",
+        "dublin w/pleasanton",
+        "dublin w / pleasanton",
+        "dublin w pleasanton"
       ],
       "description": "This station straddles the border of Dublin and Pleasanton on Interstate 580 and is near the Stoneridge Shopping Center. It is BART's 44th station."
     },
@@ -496,7 +800,10 @@
       "latitude": 37.804872,
       "longitude": -122.295140,
       "spellings": [
-
+        "west oakland",
+        "w oakland",
+        "oakland west",
+        "oakland w"
       ],
       "description": "The West Oakland BART Station is located in the West Oakland residential and industrial community. The station serves both local residents and riders from throughout the region with its excellent freeway access and short ride to downtown San Francisco."
     }
