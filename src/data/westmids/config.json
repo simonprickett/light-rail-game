@@ -1,0 +1,26 @@
+{
+    "map": {
+        "tileLayer": "stamen_toner_background",
+        "maxZoom": 19,
+        "startPos": {
+            "latitude": 52.479411,
+            "longitude": -1.908182,
+            "zoom": 12
+        }
+    },
+    "track": {
+        "color": "#0075C9",
+        "weight": 6
+    },
+    "station": {
+        "colors": {
+            "notFound": "#FF0000",
+            "found": "#00D1B2"
+        },
+        "radius": 5,
+        "zoom": {
+            "level": 14,
+            "duration": 0.5
+        }
+    }
+}

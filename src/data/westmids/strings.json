@@ -1,0 +1,14 @@
+{
+    "title": "West Midlands Metro Station Guessing Game",
+    "description": "There are 36 stations on the West Midlands Metro system.  Can you name them all?  A fun interactive map game by Simon Prickett built with Cloudflare Pages and Workers.",
+    "url": "https://westmids.simonprickett.dev",
+    "locale": "en_GB",
+    "inputPlaceholderText": "Station...",
+    "inputHelpText": "Enter the name of a Metro station.",
+    "alreadyFoundItText": "You've already found this station!",
+    "gitHubUrl": "https://github.com/simonprickett/light-rail-game",
+    "congratulationsText": "Congratulations! You got them all!",
+    "successImage": "TODO",
+    "successImageAlt": "TODO",
+    "successImageDescription": "TODO"
+}
